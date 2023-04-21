@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Regala una Gift card</title>
-    <link rel="icon" href="img/carpi_logo.png" type="image/x.icon" sizes="64x64" />
+    <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
 
         <!--logo-->
-        <img src="img/carpi_logo.png" alt="logo" width="50" height="50">
+        <img src="./img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50" />
 
         <!--busqueda-->
 
@@ -72,15 +72,183 @@
         <!--tarjeta-->
         <section>
             <p>$0000.-</p>
-            <img src="./img/giftCardPage/giftcardPrevisualizacion.png" alt="previsualización de Gift Card">
+            <img src="./img/giftCardPage/giftcardPrevisualizacion.png" alt="previsualización de Gift Card"
+                width="400px">
             <p>VISTA PREVIA RESULTADO DE PERSONALIZACIÓN</p>
         </section>
 
+        <!--tarjeta Formulario -->
         <section>
             <h1>Personalización de Gift Card</h1>
-            
+            <form action="#" method="post" enctype="multipart/form-data">
+                <label for="nombreDestinatario"></label>
+                <input type="text" name="nombreDestinatario" id="nombreDestinatario"
+                    placeholder="Nombre Destinatario :">
+
+                <label for="color_elegido">Color</label>
+                <ul>
+                    <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" width="60px" />
+                        <input id="colorVerdeOscuro" type="radio" name="color_elegido" value="colorVerdeOscuro" checked>
+                    </li>
+
+                    <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" width="60px" />
+                        <input id="colorVerdeClaro" type="radio" name="color_elegido" value="colorVerClaro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" width="60px" />
+                        <input id="colorNaranjaOscuro" type="radio" name="color_elegido" value="colorNaranjaOscuro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" width="60px" />
+                        <input id="colorNaranjaClaro" type="radio" name="color_elegido" value="colorNaranjaClaro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" width="60px" />
+                        <input id="colorAmarillo" type="radio" name="color_elegido" value="colorAmarillo">
+                    </li>
+                </ul>
+
+
+                <label for="tamaño_fuente">Tamaño de fuente</label>
+                <ul>
+                    <li>20px
+                        <input id="20px" type="radio" name="tamaño_fuente" value="20px">
+                    </li>
+                    <li>28px
+                        <input id="28px" type="radio" name="tamaño_fuente" value="28px" checked>
+                    </li>
+                    <li>32px
+                        <input id="32px" type="radio" name="tamaño_fuente" value="32px">
+                    </li>
+
+                    <li>48px
+                        <input id="48px" type="radio" name="tamaño_fuente" value="48px">
+                    </li>
+                    <li>60px
+                        <input id="60px" type="radio" name="tamaño_fuente" value="60px">
+                    </li>
+
+                </ul>
+
+
+                <label for="monto"> Monto $</label>
+                <input type="number" name="monto" id="monto">
+
+                <label for="ubicacion">Ubicación</label>
+                <ul>
+                    <li><img src="./img/giftCardPage/posUno.png" alt="Posición Uno" width="70px" />
+                        <input id="posicionUno" type="radio" name="posicion" value="posicionUno">
+                    </li>
+
+                    <li><img src="./img/giftCardPage/posDos.png" alt="Posición Dos" width="70px" />
+                        <input id="posicionDos" type="radio" name="posicion" value="posicionDos">
+                    </li>
+                    </li>
+
+                    <li><img src="./img/giftCardPage/posTres.png" alt="Posición Tres" width="70px" />
+                        <input id="posicionTres" type="radio" name="posicion" value="posicionTres">
+                    </li>
+                    </li>
+                </ul>
+
+                <label for="fondo">Fondo</label>
+                <ul>
+                    <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" width="60px" />
+                        <input id="colorVerdeOscuro" type="radio" name="fondo" value="colorVerdeOscuro" checked>
+                    </li>
+
+                    <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" width="60px" />
+                        <input id="colorVerdeClaro" type="radio" name="fondo" value="colorVerClaro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" width="60px" />
+                        <input id="colorNaranjaOscuro" type="radio" name="fondo" value="colorNaranjaOscuro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" width="60px" />
+                        <input id="colorNaranjaClaro" type="radio" name="fondo" value="colorNaranjaClaro">
+                    </li>
+                    <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" width="60px" />
+                        <input id="colorAmarillo" type="radio" name="fondo" value="colorAmarillo">
+                    </li>
+                </ul>
+
+
+                <input type="submit" value="Confirmar">
+            </form>
+
         </section>
     </main>
+
+
+    <footer>
+
+        <!--datos del grupo-->
+
+        <div>
+            <h3>Datos del grupo</h3>
+
+            <ul>
+                <li>
+                    Celena Moscovich - 45753647
+                </li>
+
+                <li>
+                    Ludmila Pereyra - 43049505
+                </li>
+
+                <li>
+                    Micaela Zara - 44892966
+                </li>
+            </ul>
+
+
+        </div>
+
+        <!--menu inferior-->
+
+        <div>
+
+            <h3>Menu inferior</h3>
+
+            <ul>
+
+                <li>
+
+                    <a href="#inicio">Ir arriba</a>
+
+                </li>
+
+                <li>
+                    <a href="#cursos_destacados">Cursos destacados</a>
+                </li>
+
+                <li>
+                    <a href="#medios_pago">Medios de pago</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!--redes-->
+
+        <div>
+
+            <h3>Redes sociales</h3>
+
+            <ul>
+                <li>
+                    <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
+                </li>
+
+                <li>
+                    <a><img src="img/ig.png" alt="instagram" width="20" height="20"></a>
+                </li>
+
+                <li>
+                    <a><img src="img/tw.png" alt="twitter" width="20" height="20"></a>
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
