@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
+    <title>Formulario de contacto</title>
+</head>
+
+<body>
+
+    <header id="inicio">
+
+        <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
+
+        <!--logo-->
+        <img src="img/carpi_logo.png" alt="logo" width="50" height="50">
+
+        <!--busqueda-->
+
+
+        <form action="#" method="post">
+            <datalist id="busqueda">
+                <option value="Curso Java">
+                <option value="Curso HTML">
+                <option value="Curso CSS">
+            </datalist>
+
+            <input type="text" name="postal" list="busqueda" autofocus>
+
+            <input type="submit" value="Buscar">
+        </form>
+
+        <!--carrito-->
+        <img src="img/chango.png" alt="changuito" width="40" height="40">
+
+        <p>2</p>
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li>
+                    <a href="">Calendario de cursos</a>
+                </li>
+
+                <li>
+                    <a href="">Regala una giftcard</a>
+                </li>
+
+                <li>
+                    <a href="">Inscripción a cursos</a>
+                </li>
+
+                <li>
+                    <a href="./formulario_contacto.html">Contacto</a>
+                </li>
+            </ul>
+
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section>
+            <!--nombre y apellido (obligatorio)-->
+            <form action="#" method="post">
+                <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
+                <input id="nombre_y_apellido" type="text" required name="nombreyapellido">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section>
+
+            <!--mail (obligatorio)-->
+            <form action="#" method="post">
+                <label for="mail">Ingrese su e-mail</label>
+                <input type="email" required name="mail" id="mail">
+                <input type="submit" value="enviar">
+            </form>
+
+        </section>
+
+        <section>
+            <!--tel (opcional)-->
+            <form action="#" method="post">
+                <label for="telefono">Ingrese su número telefónico</label>
+                <input type="tel" name="telefono" id="telefono">
+                <input type="submit" value="enviar">
+            </form>
+
+        </section>
+
+
+        <section>
+            <!--consulta (obligatorio)-->
+            <form action="#" method="post">
+                <p>Ingrese su consulta</p>
+                <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                <input type="submit" value="enviar">
+            </form>
+        </section>
+
+        <section>
+            <!--datos de contacto-->
+            <p>Datos de contacto:</p>
+            <p>Nuestras redes: </p>
+            <p>E-mail: carpicursoscontacto@gmail.com</p>
+            <p>Celular: 1136364083</p>
+            <div>
+
+                <ul>
+                    <li>
+                        <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
+                    </li>
+
+                    <li>
+                        <a><img src="img/ig.png" alt="instagram" width="20" height="20"></a>
+                    </li>
+
+                    <li>
+                        <a><img src="img/tw.png" alt="twitter" width="20" height="20"></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section>
+            <!--mapa-->
+            <p>Nuestra ubicación:
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.3225522358407!2d-58.5615768!3d-34.6718079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1682378500773!5m2!1ses-419!2sar"
+                width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <!--datos del grupo-->
+
+        <div>
+
+            <ul>
+                <li>
+                    Celena Moscovich - 45753647
+                </li>
+
+                <li>
+                    Ludmila Pereyra - 43049505
+                </li>
+
+                <li>
+                    Micaela Zara - 44892966
+                </li>
+            </ul>
+
+
+        </div>
+
+        <!--menu inferior-->
+
+        <div>
+
+            <ul>
+
+                <li>
+
+                    <a href="#inicio">Ir arriba</a>
+
+                </li>
+
+                <li>
+                    <a href="#detalles-curso">Detalles del curso</a>
+                </li>
+
+                <li>
+                    <a href="#cursos-relacionados">Cursos relacionados</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <!--redes-->
+
+        <div>
+
+            <ul>
+                <li>
+                    <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
+                </li>
+
+                <li>
+                    <a><img src="img/ig.png" alt="instagram" width="20" height="20"></a>
+                </li>
+
+                <li>
+                    <a><img src="img/tw.png" alt="twitter" width="20" height="20"></a>
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
