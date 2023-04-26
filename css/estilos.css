@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+/*COLORES
+verde medio:#11ad62
+verde lima:#c0fe71
+verde claro:#bbfcdb
+verde medio claro:#58d38c
+blanco:#fefefe
+COLOR FONDO:#EDEEFF
+COLOR TEXTO:#1D438A/
+
+/*selector universal*/
+body{
+ font-family: 'Oswald', sans-serif;
+ margin: 0;
+
+}
+
+header{
+background-color: #EDEEFF;
+color: #1D438A;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+main{
+
+background-color: #EDEEFF;
+
+}
+
+nav a {
+    color: #1D438A;
+    text-decoration: none;
+    display: block;
+    
+}
+
+nav ul :hover{
+    color: #58d38c;
+    transition: 0.5s;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row; 
+    list-style: none;
+    justify-content: space-between;
+}
+
+nav li{
+    padding: 15px;
+    
+}
+
+footer{
+ background-color: #1f407e;
+ color:rgb(254, 254, 254) ;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ font-weight: bold;
+ font-size: large;
+
+
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column; 
+    list-style: none;
+    justify-content: space-between;
+    text-align:left;
+}
+footer ul a{
+    color: #EDEEFF;
+    text-decoration: none;
+}
+
+footer ul a:hover{
+    color: aquamarine;
+    transition: 0.5s;
+}
+.redesSociales{
+    display: flex;
+    flex-direction: row; 
+}
+
+footer li{
+    margin: 0;
+    display: inline-block;
+    text-align: flex;
+}
+

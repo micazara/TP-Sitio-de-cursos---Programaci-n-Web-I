@@ -1,0 +1,17 @@
+
+
+.paraAcomodarlos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.paraAcomodarlos p{
+    font-size: larger;
+}
+.titulosDelIndex{
+    text-align: center;
+    font-size: xx-large;
+}

@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carpi Cursos</title>
     <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilosIndex.css">
 </head>
 
 <body>
@@ -46,7 +48,7 @@
                 </li>
 
                 <li>
-                    <a href="">Calendario de cursos</a>
+                    <a href="./calendario.html">Calendario de cursos</a>
                 </li>
 
                 <li>
@@ -54,11 +56,7 @@
                 </li>
 
                 <li>
-                    <a href="">Inscripción a cursos</a>
-                </li>
-
-                <li>
-                    <a href="">Contacto</a>
+                    <a href="./formulario_contacto.html">Contacto</a>
                 </li>
             </ul>
 
@@ -72,21 +70,34 @@
     <main>
 
         <section>
-            <!--carrousel-->
-            <img src="img/cursoDestacado.jpg" alt="curso" >
+            <!--carrousel...A FUTURO-->
+            <img src="img/cursoDestacado.jpg" alt="curso" width="100%" height="500">
 
         </section>
 
-        <section>
+        <section class="paraAcomodarlos">
             <!--pasos-->
-            <img src="" alt="paso 1">
-            <img src="" alt="paso 2">
-            <img src="" alt="paso 3">
+            <div>
+                <img src="" alt="paso 1">
+                <p>Primero busca el curso que quieras. Segundo Francia.</p>
+            </div>
+
+            <div>
+                <img src="" alt="paso 2">
+                <p>¿Es el curso que querés? ¡Mandale mecha entonces!</p>
+            </div>
+
+            <div>
+                <img src="" alt="paso 3">
+                <p>Ya sabes como sigue: datos,billulla y agendar la fecha de inciio.</p>
+            </div>
+
         </section>
 
-        <section>
-            <!--cursos-->
-            <h2 id="cursos_destacados"> Cursos destacados </h2>
+        <!--cursos-->
+        <h2 id="cursos_destacados" class="titulosDelIndex"> Cursos destacados </h2>
+        <section class="paraAcomodarlos">
+
             <article>
                 <img src="img/int_a_java.png" alt="Java" width="100" height="200">
                 <p>
@@ -144,7 +155,7 @@
                 </button>
             </article>
 
-            
+
 
             <article>
                 <img src="img/int_a_python.jpg" alt="Python" width="200" height="200">
@@ -165,52 +176,13 @@
                 </button>
             </article>
 
-            <!-- ESTOS CURSOS ESTAN DE MAS
 
-            <article>
-                <img src="img/int_a_c.png" alt="C" width="200" height="200">
-                <p>
-                    Introducción a C
-                </p>
-
-                <p>
-                    ver detalle
-                </p>
-
-                <p>
-                    60 hrs
-                </p>
-
-                <button>
-                    Comprar
-                </button>
-            </article>
-
-            <article>
-                <img src="img/int_a_sql.png" alt="SQL" width="200" height="200">
-                <p>
-                    Introducción a SQL
-                </p>
-
-                <p>
-                    ver detalle
-                </p>
-
-                <p>
-                    60 hrs
-                </p>
-
-                <button>
-                    Comprar
-                </button>
-            </article>
-
-        -->
         </section>
 
-        <section>
-            <!--medios de pago-->
-            <h2 id="medios_pago">Medios de pago</h2>
+        <!--medios de pago-->
+        <h2 id="medios_pago" class="titulosDelIndex">Medios de pago</h2>
+        <section class="paraAcomodarlos">
+
             <!--debito-->
             <img src="img/debito.png" alt="debito" width="100" height="100">
 
@@ -282,7 +254,7 @@
 
             <h3>Redes sociales</h3>
 
-            <ul>
+            <ul class="redesSociales">
                 <li>
                     <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
                 </li>
