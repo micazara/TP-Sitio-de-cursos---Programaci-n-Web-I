@@ -5,7 +5,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .paraAcomodarlos p{
