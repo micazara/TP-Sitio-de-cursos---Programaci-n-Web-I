@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+main{
+    padding: 5%;
+}
+
+.campos{
+    padding-bottom: 15px;
+}
+
+.datosDeContacto{
+    display: flex;
+    justify-content: right;
+   
+}

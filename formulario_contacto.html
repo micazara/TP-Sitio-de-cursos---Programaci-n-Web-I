@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosFormularioContacto.css">
     <title>Formulario de contacto</title>
 </head>
 
@@ -20,7 +21,6 @@
         <img src="img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50">
 
         <!--busqueda-->
-
 
         <form action="#" method="post">
             <datalist id="busqueda">
@@ -69,7 +69,7 @@
     </header>
 
     <main>
-        <section>
+        <section class = "campos">
             <!--nombre y apellido (obligatorio)-->
             <form action="#" method="post">
                 <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
@@ -78,38 +78,38 @@
             </form>
         </section>
 
-        <section>
+        <section class = "campos">
 
             <!--mail (obligatorio)-->
             <form action="#" method="post">
                 <label for="mail">Ingrese su e-mail</label>
                 <input type="email" required name="mail" id="mail">
-                <input type="submit" value="enviar">
+                <input type="submit" value="Enviar">
             </form>
 
         </section>
 
-        <section>
+        <section class = "campos">
             <!--tel (opcional)-->
             <form action="#" method="post">
                 <label for="telefono">Ingrese su número telefónico</label>
                 <input type="tel" name="telefono" id="telefono">
-                <input type="submit" value="enviar">
+                <input type="submit" value="Enviar">
             </form>
 
         </section>
 
 
-        <section>
+        <section class = "campos">
             <!--consulta (obligatorio)-->
             <form action="#" method="post">
                 <p>Ingrese su consulta</p>
                 <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-                <input type="submit" value="enviar">
+                <input type="submit" value="Enviar">
             </form>
         </section>
 
-        <section>
+        <section class = "datosDeContacto">
             <!--datos de contacto-->
             <p>Datos de contacto:</p>
             <p>Nuestras redes: </p>
@@ -135,7 +135,7 @@
 
         </section>
 
-        <section>
+        <section class = "campos">
             <!--mapa-->
             <p>Nuestra ubicación:
             </p>
