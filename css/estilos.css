@@ -16,18 +16,24 @@ body {
 
 }
 
-/* HEADER */
-header {
-    background-color: #EDEEFF;
-    color: #1D438A;
+header{
+background-color: #EDEEFF;
+color: #1D438A;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+main{
+
+background-color: #EDEEFF;
+
+}
+.cajaDos{
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-
-/* MAIN */
-main {
-    background-color: #EDEEFF;
+    background-color:#EDEEFF;
+    width: 100%;
+    justify-content:space-around;
 }
 
 
@@ -55,6 +61,11 @@ nav li {
     padding: 15px;
 
 }
+main{
+
+    background-color: #d7d9f7;
+    
+    }
 
 /* PIE DE PAGINA */
 footer {
