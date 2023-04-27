@@ -10,85 +10,96 @@ COLOR FONDO:#EDEEFF
 COLOR TEXTO:#1D438A/
 
 /*selector universal*/
-body{
- font-family: 'Oswald', sans-serif;
- margin: 0;
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
 
 }
 
-header{
-background-color: #EDEEFF;
-color: #1D438A;
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-main{
-
-background-color: #EDEEFF;
-
+/* HEADER */
+header {
+    background-color: #EDEEFF;
+    color: #1D438A;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+/* MAIN */
+main {
+    background-color: #EDEEFF;
+}
+
+
+/* MENU */
 nav a {
     color: #1D438A;
     text-decoration: none;
     display: block;
-    
+
 }
 
-nav ul :hover{
+nav ul :hover {
     color: #58d38c;
     transition: 0.5s;
 }
 
-nav ul{
+nav ul {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
     list-style: none;
     justify-content: space-between;
 }
 
-nav li{
+nav li {
     padding: 15px;
-    
-}
-
-footer{
- background-color: #1f407e;
- color:rgb(254, 254, 254) ;
- display: flex;
- flex-direction: row;
- justify-content: space-around;
- font-weight: bold;
- font-size: large;
-
 
 }
 
-footer ul{
+/* PIE DE PAGINA */
+footer {
+    background-color: #1f407e;
+    color: rgb(254, 254, 254);
     display: flex;
-    flex-direction: column; 
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 10px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0%;
     list-style: none;
     justify-content: space-between;
-    text-align:left;
+    text-align: left;
+
 }
-footer ul a{
+
+footer ul a {
     color: #EDEEFF;
     text-decoration: none;
 }
 
-footer ul a:hover{
+footer ul a:hover {
     color: aquamarine;
     transition: 0.5s;
 }
-.redesSociales{
+
+footer li {
+    padding: 3px;
+}
+
+.redesSociales {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
 
-footer li{
-    margin: 0;
-    display: inline-block;
-    text-align: flex;
+#logo-footer {
+    display: block;
+    margin: auto;
 }
-
