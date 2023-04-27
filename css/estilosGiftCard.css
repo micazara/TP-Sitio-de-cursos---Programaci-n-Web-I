@@ -12,23 +12,32 @@ COLOR TEXTO:#1D438A/
 .caja--tarjeta {
     display: grid;
     grid-template-columns: 1fr 1fr;
+   
 }
 
 .cajaUno--tarjeta {
     width: 100%;
+    border: 3px solid blue;
 }
 
 .cajaDos--tarjeta {
     width: 100%;
-    display: grid;
+    display: block;
+    border: 3px solid blue;
+    align-items: start;
+    justify-content: start;
 }
 
 .elementos--color {
     display: flex;
     flex-direction: row;
     list-style: none;
-    align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.elementos--color ul {
+    padding: 0;
+    margin: 0;
 }
 
 .elementos--color img {
@@ -51,5 +60,42 @@ COLOR TEXTO:#1D438A/
 .monto {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+}
 
+.elementos--posiciones{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+
+.elementos--posiciones img{
+    width: 70px;
+}
+
+.elementos--fondo{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: flex-start;
+    justify-content: space-evenly;
+}
+.elementos--fondo img{
+    width: 60px;
+}
+
+.botonEnviar--espacio{
+    width: 100%
+}
+.botonEnviar{
+    font-size: 100%;
+    font-family: inherit;
+    border-radius: 10px;
+    border: none;
+    color:whitesmoke;
+    background-color: #11ad62;
+    margin: 20px;
+    padding: 1p5px;
 }
