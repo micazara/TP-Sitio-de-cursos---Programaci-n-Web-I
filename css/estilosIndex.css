@@ -1,20 +1,55 @@
-
-
-.paraAcomodarlos{
+.paraAcomodarlos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-left: 5%;
-    padding-right: 5%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.paraAcomodarlos p{
-    font-size: larger;
+.tarjetitas {
+    display: flex;
+    padding: 60px;
+    gap: 30px;
 }
-.titulosDelIndex{
+
+.tarjetita {
+    font-size: larger;
+    text-align: center
+}
+
+.tarjetita img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.titulosDelIndex {
     text-align: center;
     font-size: xx-large;
+}
+
+.tarjetita_cursos {
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 100%;
+    margin:  2%;
+    justify-content: center;
+   
+   
+}
+
+.tarjetita_cursos img {
+    width: 80%;
+    padding: 5%;
+    border-radius: 30px;
+    justify-content: center;
+}
+.tarjetita_cursos a{
+    text-decoration: none;
+    color: #1f407e;
+}
+.tarjetita_cursos a:hover{
+    text-decoration:dotted;
+    color: #11ad62;
+    transition: 0.6s;
 }
