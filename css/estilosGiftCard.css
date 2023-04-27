@@ -86,9 +86,7 @@ COLOR TEXTO:#1D438A/
     width: 60px;
 }
 
-.botonEnviar--espacio{
-    width: 100%
-}
+
 .botonEnviar{
     font-size: 100%;
     font-family: inherit;
@@ -97,5 +95,6 @@ COLOR TEXTO:#1D438A/
     color:whitesmoke;
     background-color: #11ad62;
     margin: 20px;
-    padding: 1p5px;
+    padding: 15px;
+    width: 100%
 }
