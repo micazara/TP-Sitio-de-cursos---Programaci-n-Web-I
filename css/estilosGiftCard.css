@@ -1,0 +1,14 @@
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cajaUno{
+border: 2px solid red;
+
+}
+.cajaDos{
+
+    border: 2px solid red;
+}
