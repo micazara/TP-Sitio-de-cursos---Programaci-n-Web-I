@@ -15,65 +15,63 @@
 
     <header id="inicio">
 
-        <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
+        <div class="cajaUno">
+            <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
 
-        <!--logo-->
-        <img src="./img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50" />
+            <!--logo-->
+            <img src="./img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50">
 
-        <!--busqueda-->
+            <!--busqueda-->
 
 
-        <form action="#" method="post">
-            <datalist id="busqueda">
-                <option value="Curso Java">
-                <option value="Curso HTML">
-                <option value="Curso CSS">
-            </datalist>
+            <form action="#" method="post">
+                <datalist id="busqueda">
+                    <option value="Curso Java">
+                    <option value="Curso HTML">
+                    <option value="Curso CSS">
+                </datalist>
 
-            <input type="text" name="postal" list="busqueda" autofocus>
+                <input type="text" name="postal" list="busqueda" autofocus>
 
-            <input type="submit" value="Buscar">
-        </form>
+                <input type="submit" value="Buscar">
+            </form>
 
-        <!--carrito-->
-        <img src="img/chango.png" alt="changuito" width="40" height="40">
+            <!--carrito-->
+            <img src="img/chango.png" alt="changuito" width="40" height="40">
 
-        <p>2</p>
+            <p>2</p>
+        </div>
+        <div class="cajaDos">
+            <nav>
 
-        <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
 
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
+                    <li>
+                        <a href="./calendario.html">Calendario de cursos</a>
+                    </li>
 
-                <li>
-                    <a href="">Calendario de cursos</a>
-                </li>
+                    <li>
+                        <a href="./regala_giftCard.html">Regala una Gift card</a>
+                    </li>
 
-                <li>
-                    <a href="./regala_giftCard.html">Regala una giftcard</a>
-                </li>
+                    <li>
+                        <a href="./formulario_contacto.html">Contacto</a>
+                    </li>
+                </ul>
 
-                <li>
-                    <a href="">Inscripción a cursos</a>
-                </li>
-
-                <li>
-                    <a href="">Contacto</a>
-                </li>
-            </ul>
-
-        </nav>
-
+            </nav>
+        </div>
 
     </header>
 
-    <main class="caja">
-        
-        
+    <main class="caja--tarjeta">
+
+
         <!--tarjeta-->
-        <section class="cajaUno">
+        <section class="cajaUno--tarjeta">
             <p>$0000.-</p>
             <img src="./img/giftCardPage/giftcardPrevisualizacion.png" alt="previsualización de Gift Card"
                 width="400px">
@@ -81,36 +79,53 @@
         </section>
 
         <!--tarjeta Formulario -->
-        <section class="cajaDos">
+        <section class="cajaDos--tarjeta">
             <h1>Personalización de Gift Card</h1>
             <form action="#" method="post" enctype="multipart/form-data">
                 <label for="nombreDestinatario"></label>
                 <input type="text" name="nombreDestinatario" id="nombreDestinatario"
                     placeholder="Nombre Destinatario :">
 
+
                 <label for="color_elegido">Color</label>
-                <ul>
+                <ul class="elementos--color">
                     <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" width="60px" />
-                        <input id="colorVerdeOscuro" type="radio" name="color_elegido" value="colorVerdeOscuro" checked>
                     </li>
 
                     <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" width="60px" />
-                        <input id="colorVerdeClaro" type="radio" name="color_elegido" value="colorVerClaro">
+
                     </li>
                     <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" width="60px" />
-                        <input id="colorNaranjaOscuro" type="radio" name="color_elegido" value="colorNaranjaOscuro">
+
                     </li>
                     <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" width="60px" />
-                        <input id="colorNaranjaClaro" type="radio" name="color_elegido" value="colorNaranjaClaro">
-                    </li>
+
                     <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" width="60px" />
-                        <input id="colorAmarillo" type="radio" name="color_elegido" value="colorAmarillo">
+
                     </li>
                 </ul>
 
+                <ul class="elementos--color">
+                    <li>
+                        <input id="colorVerdeOscuro" type="radio" name="color_elegido" value="colorVerdeOscuro" checked>
+                    </li>
+                    <li>
+                        <input id="colorVerdeClaro" type="radio" name="color_elegido" value="colorVerClaro">
+                    </li>
+                    <li>
+                        <input id="colorNaranjaOscuro" type="radio" name="color_elegido" value="colorNaranjaOscuro">
+                    </li>
+                    <li>
+                        <input id="colorNaranjaClaro" type="radio" name="color_elegido" value="colorNaranjaClaro">
+                    </li>
+                    <li>
+                        <input id="colorAmarillo" type="radio" name="color_elegido" value="colorAmarillo">
+                    </li>
+
+                </ul>
 
                 <label for="tamaño_fuente">Tamaño de fuente</label>
-                <ul>
+                <ul class="elementos--fuente">
                     <li>20px
                         <input id="20px" type="radio" name="tamaño_fuente" value="20px">
                     </li>

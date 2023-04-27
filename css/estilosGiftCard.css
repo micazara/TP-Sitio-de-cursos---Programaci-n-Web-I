@@ -1,14 +1,46 @@
+/*COLORES
+verde medio:#11ad62
+verde lima:#c0fe71
+verde claro:#bbfcdb
+verde medio claro:#58d38c
+blanco:#fefefe
+COLOR FONDO:#EDEEFF
+COLOR TEXTO:#1D438A/
 
-.caja{
+/*selector universal*/
+
+.caja--tarjeta {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.cajaUno{
-border: 2px solid red;
+.cajaUno--tarjeta {
+    width: 100%;
+}
+
+.cajaDos--tarjeta {
+    width: 100%;
+    display: grid;
+}
+
+.elementos--color {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: flex-start;
+    justify-content: space-evenly;
 
 }
-.cajaDos{
 
-    border: 2px solid red;
+.elementos--color img {
+    border-radius: 100%;
+
+}
+
+.elementos--fuente{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-content: flex-start;
+    justify-content: space-evenly; 
 }
