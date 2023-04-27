@@ -20,22 +20,25 @@ header{
 background-color: #EDEEFF;
 color: #1D438A;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
 }
-main{
-
-background-color: #EDEEFF;
-
+.cajaUno{
+    display: flex;  
+    flex-direction: row;
 }
 .cajaDos{
     display: flex;
     flex-direction: row;
-    background-color:#EDEEFF;
+    background-color:#afb1d5;
     width: 100%;
     justify-content:space-around;
 }
+main{
 
+    background-color: #EDEEFF;
+    
+    }
 
 /* MENU */
 nav a {

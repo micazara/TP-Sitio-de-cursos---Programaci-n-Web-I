@@ -19,7 +19,7 @@ COLOR TEXTO:#1D438A/
 }
 
 .cajaDos--tarjeta {
-    width: 100%;
+  width: 100%;
     display: grid;
 }
 
@@ -29,7 +29,6 @@ COLOR TEXTO:#1D438A/
     list-style: none;
     align-content: flex-start;
     justify-content: space-evenly;
-
 }
 
 .elementos--color img {
@@ -37,10 +36,10 @@ COLOR TEXTO:#1D438A/
 
 }
 
-.elementos--fuente{
+.elementos--fuente {
     display: flex;
     flex-direction: row;
     list-style: none;
     align-content: flex-start;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
