@@ -1,0 +1,25 @@
+#cursos-relacionados{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#titulo-cursos-relacionados{
+    text-align: center;
+}
+
+#detalle-curso{
+    display: flex;
+    justify-content: space-around;
+}
+
+#detalle-curso div{
+    margin: 23px;
+}
+
+#detalle-curso ul{
+    padding: 0%;
+    list-style: none;
+}
