@@ -1,3 +1,7 @@
+footer div {
+    font-weight: 200;
+}
+
 .paraAcomodarlos {
     display: flex;
     flex-direction: row;

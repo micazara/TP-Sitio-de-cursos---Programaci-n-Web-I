@@ -92,7 +92,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: 200;
     font-size: large;
     padding-bottom: 10px;
 
@@ -121,6 +121,10 @@ footer ul a:hover {
 
 footer li {
     padding: 3px;
+}
+
+footer div h3{
+    font-weight: 300;
 }
 
 .redesSociales {
