@@ -6,13 +6,20 @@ main {
     padding: 5%;
 }
 
-.campos {
-    padding-bottom: 15px;
-    border-radius: 10%;
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
-.contenedor{
-    width: 100%;
-    display: flex;
-    justify-content: right;
+.caja1{
+text-align: left;
+}
+
+.caja2{
+text-align: right;
+}
+
+.caja2 li{
+    list-style-position: inside;
 }
