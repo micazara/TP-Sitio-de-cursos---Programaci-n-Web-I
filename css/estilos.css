@@ -37,6 +37,31 @@ header {
     height: 70px;
 }
 
+#buscador{
+    width: 400px;
+}
+
+#numero-chango{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    background-color: #58d38c;
+    color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+#chango{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .cajaDos {
     display: flex;
     flex-direction: row;
@@ -75,7 +100,7 @@ nav ul {
 }
 
 nav li {
-    padding: 15px;
+    padding: 10px;
 
 }
 
