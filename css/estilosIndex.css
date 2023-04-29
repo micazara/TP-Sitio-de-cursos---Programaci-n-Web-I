@@ -51,3 +51,19 @@ footer div {
     transition: 0.6s;
 }
 
+.tarjetita_cursos button{
+    background-color: #11ad62;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+.tarjetita_cursos button a{
+    color: white;
+}
+
+.tarjetita_cursos button :hover {
+    color: rgb(182, 224, 205);
+    transition: 0.5s;
+}
