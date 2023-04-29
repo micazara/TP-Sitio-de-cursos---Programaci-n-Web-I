@@ -1,51 +1,122 @@
-#cursos-relacionados{
+#cursos-relacionados {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 5%;
+    padding: 3%;
+    padding-bottom: 5%;
 }
 
-#titulo-cursos-relacionados{
+#titulo-cursos-relacionados {
     text-align: center;
 }
 
-#detalle-curso{
+#detalle-curso {
     display: flex;
     justify-content: space-around;
 }
 
-#detalle-curso div{
+#detalle-curso div {
     margin: 23px;
 }
 
-#detalle-curso ul{
+#detalle-curso ul {
     padding: 0%;
     list-style: none;
 }
 
-#titulo-docente{
+#titulo-docente {
     text-align: left;
     margin-left: 52px;
     padding: 7px;
 }
 
-#docente{
+#docente {
     display: flex;
     background-color: #a9aab4;
     padding: 20px 70px;
 }
 
-#docente article{
+#docente article {
     padding: 0 23px;
 }
 
-#docente h2{
+#docente h2 {
     margin: 0;
     margin-bottom: 7px;
 }
 
-#estrellas{
+#estrellas {
     margin-bottom: 10px;
 }
 
+.caja-curso {
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 30px;
+}
+
+.caja-curso img {
+    border-radius: 30px;
+}
+
+#foto-curso {
+    border-radius: 30px;
+}
+
+button {
+    background-color: #11ad62;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button :hover {
+    color: rgb(182, 224, 205);
+    transition: 0.5s;
+}
+
+.unidades-curso {
+    width: 350px;
+    border-radius: 30px;
+}
+
+.unidades-curso div {
+   margin: 0%;
+   width: 100%;
+}
+
+.titulo-unidad h4{
+margin: 0;
+padding: 0;
+}
+
+.titulo-unidad {
+    display: block;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.unidades-curso li {
+    background-color: rgb(222, 228, 231);
+    padding: 10px;
+    margin: 0;
+}
+
+.unidades-curso ul {
+    margin: 0;
+}

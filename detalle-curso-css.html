@@ -75,7 +75,7 @@
 
         <section id="detalle-curso">
             <div>
-                <img src="img/carpiIndex/logoCSS.png" alt="foto-curso" width="300">
+                <img src="img/carpiIndex/logoCSS.png" id="foto-curso" alt="foto-curso" width="300">
             </div>
             <div>
                 <article>
@@ -91,23 +91,32 @@
                     <button><a href="inscripcion-css.html">Inscribirse</a></button>
                 </article>
 
-                <article>
-                    <h2>Detalles del curso</h2>
+                <h2>Detalles del curso</h2>
+                <article class="unidades-curso">
 
-                    <h4>Introducción</h4>
+                    <a class="titulo-unidad" href="" >
+                        Introducción
+                        <img src="img/flecha-desplegable.png" width="10px" height="10px" alt="">
+                    </a>
                     <ul>
                         <li> video introductorio - 4 min</li>
                         <li>apunte del temario</li>
                     </ul>
 
-                    <h4>Unidad 1</h4>
+                    <a class="titulo-unidad" href="" >
+                        Unidad 1
+                        <img src="img/flecha-desplegable.png" width="10px" height="10px" alt="">
+                    </a>
                     <ul>
                         <li> video clase - 40 min</li>
                         <li>apunte de clase</li>
                         <li>examen - 20min</li>
                     </ul>
 
-                    <h4>Unidad 2</h4>
+                    <a class="titulo-unidad" href="" >
+                        Unidad 2
+                        <img src="img/flecha-desplegable.png" width="10px" height="10px" alt="">
+                    </a>
                     <ul>
                         <li> video introductorio - 40 min</li>
                         <li>apunte de clase</li>
@@ -120,15 +129,17 @@
         <h2 id="titulo-docente">Docente</h2>
         <section id="docente">
             <div>
-                <img src="img/foto-docente.png" alt="foto-docente" width="150" >
+                <img src="img/foto-docente.png" alt="foto-docente" width="150">
             </div>
-           
+
             <article>
                 <h2>Nombre y apellido</h2>
                 <img src="img/estrellas-puntuacion.png" id="estrellas" alt="puntuacion-curso" width="130">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti et animi assumenda quas itaque
                     error nam ratione omnis voluptate saepe libero ea, minus dolorum est dolore fuga ab. In, excepturi!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis in, neque odit aut quis itaque ipsam! Odit sed rem illum ducimus dolore excepturi, veritatis atque, voluptates, a exercitationem placeat?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum blanditiis in, neque odit aut quis
+                    itaque ipsam! Odit sed rem illum ducimus dolore excepturi, veritatis atque, voluptates, a
+                    exercitationem placeat?
                 </p>
             </article>
         </section>
@@ -136,21 +147,26 @@
         <h2 id="titulo-cursos-relacionados">Cursos relacionados</h2>
         <section id="cursos-relacionados">
 
-            <article>
+            <article class="caja-curso">
                 <img src="img/carpiIndex/logoJava.png" alt="Java" width="200" height="200">
                 <p>
                     Introducción a Java
                 </p>
-
+                <p>
+                    60hs
+                </p>
                 <button>
                     <a href="detalle-curso-java.html">Ver detalles</a>
                 </button>
             </article>
 
-            <article>
+            <article class="caja-curso">
                 <img src="img/carpiIndex/logoHtml.png" alt="HTML" width="200" height="200">
                 <p>
                     Introducción a HTML
+                </p>
+                <p>
+                    60hs
                 </p>
 
                 <button>
@@ -158,10 +174,13 @@
                 </button>
             </article>
 
-            <article>
+            <article class="caja-curso">
                 <img src="img/carpiIndex/logoCSS.png" alt="CSS" width="200" height="200">
                 <p>
                     Introducción a CSS
+                </p>
+                <p>
+                    60hs
                 </p>
 
                 <button>
@@ -169,10 +188,13 @@
                 </button>
             </article>
 
-            <article>
+            <article class="caja-curso">
                 <img src="img/carpiIndex/logoPhyton.png" alt="Python" width="200" height="200">
                 <p>
                     Introducción a Python
+                </p>
+                <p>
+                    60hs
                 </p>
 
                 <button>
