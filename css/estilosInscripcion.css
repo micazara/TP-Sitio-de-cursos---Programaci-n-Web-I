@@ -1,0 +1,46 @@
+.bloque-inscripcion{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.boton-confirmar{
+    background-color: #11ad62;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 100%;
+}
+
+.campo{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    text-align: center;
+}
+
+#campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-campo{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#boton-inscribirse{
+    display: block;
+    background-color: #11ad62;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
