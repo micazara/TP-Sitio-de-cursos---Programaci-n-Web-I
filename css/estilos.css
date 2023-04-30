@@ -37,8 +37,23 @@ header {
     height: 70px;
 }
 
+.cajaUno form {
+    align-items: center;
+}
+
 #buscador{
     width: 400px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+#boton-buscar{
+    border: none;
+    color: white;
+    background-color: #58d38c;
+    padding: 5px;
+    border-radius: 30px;
 }
 
 #numero-chango{
