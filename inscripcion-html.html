@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilosInscripcion.css">
     <title>Inscribite</title>
     <link rel="icon" href="img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
 </head>
@@ -71,32 +72,44 @@
 
 
 
+   
+
     <main>
 
-        <section>
-            <h2>Introducción a HTML</h2>
+        <section class="bloque-inscripcion">
+            <h2>Introduccion a HTML</h2>
             <h3>inscripción</h3>
             <article>
-                <form action="#">
+                <form action="#" id="campos">
 
-                    <input type="text" placeholder="ingrese su nombre" required>
-                    <input type="text" placeholder="ingrese su apellido" required>
-                    <input type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                    <button>-</button>
-                    <br>
-                    <input type="text" placeholder="ingrese su nombre" required>
-                    <input type="text" placeholder="ingrese su apellido" required>
-                    <input type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                    <button>-</button>
-                    <br>
-                    <input type="text" placeholder="ingrese su nombre" required>
-                    <input type="text" placeholder="ingrese su apellido" required>
-                    <input type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                    <button>-</button>
-                    <br>
-                    <button>+</button>
+                    <div class="fila-campo">
+                    <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                    <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                    <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                    <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px" alt=""></a>
+                </div>
+                
+                <div class="fila-campo">
+                    <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                    <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                    <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                    <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px" alt=""></a>
+                </div>
+                <div class="fila-campo">
+                    <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                    <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                    <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                    <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px" alt=""></a>
+                </div>
+
+                <div class="fila-agregar">
+                    <a  href="" id="boton-agregar-persona"><img src="img/signo-mas.png" width="20px" height="20px" alt=""></a>
                     <p>agregar persona</p>
-                    <p>0.00$</p> <button>inscribirse</button>
+                </div>
+
+                <div class="fila-agregar">
+                    <p id="precio">0.00$</p> <button id="boton-inscribirse">Inscribirse</button>
+                </div>
                 </form>
             </article>
 
@@ -104,7 +117,6 @@
         </section>
 
     </main>
-
     <footer>
 
         <!--datos del grupo-->
