@@ -42,7 +42,7 @@
 
                 <p id="numero-chango">2</p>
             </div>
-           
+
         </div>
         <div class="cajaDos">
             <nav>
@@ -75,7 +75,7 @@
             <section class="caja1">
                 <section>
                     <!--nombre y apellido (obligatorio)-->
-                    <form action="#" method="post">
+                    <form action="#" method="post" class = "campos">
                         <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
                         <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="sombra">
                         <input type="submit" value="Enviar">
@@ -85,7 +85,7 @@
                 <section>
 
                     <!--mail (obligatorio)-->
-                    <form action="#" method="post">
+                    <form action="#" method="post" class = "campos">
                         <label for="mail">Ingrese su e-mail</label>
                         <input type="email" required name="mail" id="mail">
                         <input type="submit" value="Enviar">
@@ -95,7 +95,7 @@
 
                 <section>
                     <!--tel (opcional)-->
-                    <form action="#" method="post">
+                    <form action="#" method="post" class = "campos">
                         <label for="telefono">Ingrese su número telefónico</label>
                         <input type="tel" name="telefono" id="telefono">
                         <input type="submit" value="Enviar" class="botonesDeEnvio">
@@ -107,7 +107,7 @@
                 <section>
                     <!--consulta (obligatorio)-->
                     <form action="#" method="post">
-                        <p>Ingrese su consulta</p>
+                        <p  class = "campos">Ingrese su consulta</p>
                         <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
                         <input type="submit" value="Enviar">
                     </form>
@@ -118,9 +118,9 @@
             <section class="caja2">
                 <!--datos de contacto-->
                 <p>Datos de contacto:</p>
-                <p>Nuestras redes: </p>
                 <p>E-mail: carpicursoscontacto@gmail.com</p>
                 <p>Celular: 1136364083</p>
+                <p>Nuestras redes: </p>
                 <div>
 
                     <ul>
@@ -140,17 +140,17 @@
                 </div>
 
             </section>
+        </section>
 
-
-            <section class ="mapa">
-                <!--mapa-->
-                <p>Nuestra ubicación:
-                </p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.3225522358407!2d-58.5615768!3d-34.6718079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1682378500773!5m2!1ses-419!2sar"
-                    width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </section>
+        <section class="caja3">
+            <!--mapa-->
+            <p>Nuestra ubicación:
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3281.3225522358407!2d-58.5615768!3d-34.6718079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc62cc3ef7083%3A0x8867107f425fade5!2sUniversidad%20Nacional%20de%20La%20Matanza!5e0!3m2!1ses-419!2sar!4v1682378500773!5m2!1ses-419!2sar"
+                width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
 
     </main>
 
