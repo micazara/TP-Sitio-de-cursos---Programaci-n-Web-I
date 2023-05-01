@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>Calendario</title>
     <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/estilos-calendario.css">
 </head>
 
 <body>
+
 
     <header id="inicio">
 
@@ -32,7 +35,7 @@
 
                 <input type="text" id="buscador" name="postal" list="busqueda" autofocus>
 
-                <input type="submit" value="Buscar">
+                <input id="boton-buscar" type="submit" value="Buscar">
             </form>
 
             <!--carrito-->
@@ -41,7 +44,7 @@
 
                 <p id="numero-chango">2</p>
             </div>
-           
+
         </div>
         <div class="cajaDos">
             <nav>
@@ -72,68 +75,71 @@
 
 
     <main>
+     
+            <!--CONTENEDOR PADRE-->
+            <section class="padre">
+                <!--CONTENEDORES BABYS-->
+                <div>
+                    <p class="diasdelasemana">DOM</p>
+                    <p>1 de Septiembre</p>
+                </div>
 
-        <!--CONTENEDOR PADRE-->
-        <section>
-            <!--CONTENEDORES BABYS-->
-            <div>
-                <p>DOM</p>
-                <p>1 de Septiembre</p>
-            </div>
+                <div>
+                    <p class="diasdelasemana">LUN</p>
+                    <p>2</p>
+                </div>
+                <div>
+                    <p class="diasdelasemana">MAR</p>
+                    <p>3</p>
+                </div>
+                <div>
+                    <p class="diasdelasemana">MIÉ</p>
+                    <p>4</p>
+                </div>
+                <div>
+                    <p class="diasdelasemana">JUE</p>
+                    <p>5</p>
+                </div>
+                <div>
+                    <p class="diasdelasemana">VIE</p>
+                    <p>6</p>
+                </div>
+                <div>
+                    <p class="diasdelasemana">SÁB</p>
+                    <p>7</p>
+                </div>
 
-            <div>
-                <p>LUN</p>
-                <p>2</p>
-            </div>
-            <div>
-                <p>MAR</p>
-                <p>3</p>
-            </div>
-            <div>
-                <p>MIÉ</p>
-                <p>4</p>
-            </div>
-            <div>
-                <p>JUE</p>
-                <p>5</p>
-            </div>
-            <div>
-                <p>VIE</p>
-                <p>6</p>
-            </div>
-            <div>
-                <p>SÁB</p>
-                <p>7</p>
-            </div>
-            <div>
-                <p>DOM</p>
-                <p>8</p>
-            </div>
-            <div>
+                <div>
 
-                <p>9</p>
-            </div>
+                    <p>8</p>
+                </div>
+                <div>
+
+                    <p>9</p>
+                </div>
+
+                <div>
+                    <p>10</p>
+                </div>
 
 
-            <p>10</p>
-            </div>
-            <div>
+                <div>
 
-                <p>11</p>
-            </div>
-            <div>
+                    <p>11</p>
+                </div>
+                <div>
 
-                <p>12</p>
-            </div>
-            <div>
+                    <p>12</p>
+                </div>
+                <div>
 
-                <p>13</p>
-            </div>
-            <div>
+                    <p>13</p>
+                </div>
+                <div>
 
-                <p>14</p>
-            </div>
-            <div>
+                    <p>14</p>
+                </div>
+
                 <div>
 
                     <p>15</p>
@@ -226,9 +232,9 @@
                     <p>5</p>
                 </div>
 
-        </section>
+            </section>
 
-
+       
     </main>
 
 
@@ -276,11 +282,11 @@
                     <li>
                         <a href="#inicio">Ir arriba</a>
                     </li>
-                    
+
                     <li>
                         <a href="./index.html">Home</a>
                     </li>
-                        
+
                     <li>
                         <a href="./calendario.html">Calendario de cursos</a>
                     </li>

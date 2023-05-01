@@ -1,0 +1,23 @@
+
+
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border: solid #11ad62 2px;
+    background: rgb(187, 252, 219);
+    background: linear-gradient(90deg, rgba(187, 252, 219, 0.885766806722689) 0%, rgba(135, 230, 178, 0.874562324929972) 51%, rgba(67, 217, 131, 0.8605567226890756) 100%);
+    justify-content: center;
+  
+}
+
+.padre div{
+
+    border: solid #11ad62 1px;
+    text-align: center;
+}
+.diasdelasemana {
+background-color: #11ad62ad;
+padding: 20px;
+margin: 0;
+}
