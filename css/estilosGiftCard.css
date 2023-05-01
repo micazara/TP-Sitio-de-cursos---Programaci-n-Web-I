@@ -31,6 +31,25 @@ h1 {
 
 }
 
+.nombre-destinatario {
+    text-align:left;
+    color: #1D438A;
+    font-family: inherit;
+    font-size: 100%;
+    width: 57%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2%;
+    background: rgba(141, 113, 243, 0.479);
+    background: linear-gradient(103deg, rgba(128, 104, 217, 0.646) 18%, rgba(119, 92, 217, 0.61) 38%, rgba(155, 136, 222, 0.701) 74%);
+}
+
+.espacio {
+    margin-bottom: 3%;
+}
+
+
 .elementos--color {
     display: flex;
     flex-direction: row;
@@ -80,6 +99,7 @@ h1 {
     width: 45%;
     margin-left: 20px;
     border: none;
+    color: #1D438A;
     border-radius: 5px;
     padding: 5px;
     background: rgba(128, 104, 217, 0.479);
@@ -91,35 +111,50 @@ h1 {
     display: flex;
     flex-direction: row;
     list-style: none;
-    align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding: 0%;
 }
 
 .elementos--posiciones img {
     width: 70px;
+    margin-right: 40px;
 }
 
-.elementos--fondo {
+.elementos--posiciones input {
+    margin-right: 75px;
+    margin-left: 25px;
+}
+
+.elementos--fondo ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding: 0%;
+    margin: 0%;
 }
 
 .elementos--fondo img {
     width: 60px;
+    margin-right: 40px;
+}
+
+.elementos--fondo input {
+    margin-right: 63px;
+    margin-left: 25px;
 }
 
 
 .botonEnviar {
+    text-align: center;
     font-size: 100%;
     font-family: inherit;
     border-radius: 10px;
     border: none;
     color: whitesmoke;
     background-color: #11ad62;
-    margin: 20px;
-    padding: 15px;
-
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 0px 10px 0px 10px;
 }

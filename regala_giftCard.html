@@ -43,7 +43,7 @@
 
                 <p id="numero-chango">2</p>
             </div>
-           
+
         </div>
         <div class="cajaDos">
             <nav>
@@ -85,35 +85,37 @@
         <!--tarjeta Formulario -->
         <section class="cajaDos--tarjeta">
             <h1>Personalización de Gift Card</h1>
+            
             <form action="#" method="post" enctype="multipart/form-data">
                 <label for="nombreDestinatario"></label>
                 <input type="text" name="nombreDestinatario" id="nombreDestinatario"
-                    placeholder="Nombre Destinatario :">
+                    placeholder="Nombre Destinatario :" class="nombre-destinatario">
+               
 
                 <div class="subtitulo">
 
                     <label for="color_elegido">Color</label>
                 </div>
 
-                <div>
-                    <ul class="elementos--color">
+                <div class="espacio">
+                <ul class="elementos--color">
 
-                        <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" width="60px" />
-                        </li>
+                    <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" width="60px" />
+                    </li>
 
-                        <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" width="60px" />
+                    <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" width="60px" />
 
-                        </li>
-                        <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" width="60px" />
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" width="60px" />
 
-                        </li>
-                        <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" width="60px" />
+                    </li>
+                    <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" width="60px" />
 
-                        <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" width="60px" />
+                    <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" width="60px" />
 
-                        </li>
-                    </ul>
-                </div>
+                    </li>
+                </ul>
+
 
                 <ul class="elementos--color">
                     <li>
@@ -133,11 +135,13 @@
                     </li>
 
                 </ul>
-
+            </div>
                 <div class="subtitulo">
 
                     <label for="tamaño_fuente">Tamaño de fuente</label>
                 </div>
+                
+                <div class="espacio">
                 <ul class="elementos--fuente">
                     <li>20px
 
@@ -157,6 +161,7 @@
                     </li>
 
                 </ul>
+
                 <ul class="elementos--fuente">
                     <li>
                         <input id="20px" type="radio" name="tamaño_fuente" value="20px">
@@ -176,8 +181,9 @@
                     </li>
 
                 </ul>
+            </div>
 
-                <div class="monto subtitulo">
+                <div class="monto subtitulo espacio">
 
                     <label for="monto"> Monto $</label>
                     <input type="number" name="monto" id="monto">
@@ -187,6 +193,9 @@
 
                     <label for="ubicacion">Ubicación</label>
                 </div>
+                
+                <div class="espacio">
+
                 <ul class="elementos--posiciones">
                     <li>
                         <img src="./img/giftCardPage/posUno.png" alt="posicion Uno">
@@ -217,49 +226,57 @@
                     </li>
                     </li>
                 </ul>
-
+            </div>
                 <div class="subtitulo">
                     <label for="fondo">Fondo</label>
                 </div>
-                <ul class="elementos--fondo">
-                    <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" />
+                <div class="elementos--fondo espacio">
 
-                    </li>
+                    <ul class="elementos--fondo">
+                        <li><img src="./img/giftCardPage/colorVerOscuro.png" alt="Color Verde oscuro" />
 
-                    <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" />
+                        </li>
 
-                    </li>
-                    <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" />
+                        <li><img src="./img/giftCardPage/colorVerClaro.png" alt="Color Verde claro" />
 
-                    </li>
-                    <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" />
+                        </li>
+                        <li><img src="./img/giftCardPage/colorNarOscuro.png" alt="Color Naranja oscuro" />
 
-                    </li>
-                    <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" />
+                        </li>
+                        <li><img src="./img/giftCardPage/colorNarClaro.png" alt="Color Naranja claro" />
 
-                    </li>
-                </ul>
-                <ul class="elementos--fondo">
-                    <li>
-                        <input id="colorVerdeOscuro" type="radio" name="fondo" value="colorVerdeOscuro" checked>
-                    </li>
+                        </li>
+                        <li><img src="./img/giftCardPage/colorAma.png" alt="Color amarillo" />
 
-                    <li>
-                        <input id="colorVerdeClaro" type="radio" name="fondo" value="colorVerClaro">
-                    </li>
-                    <li>
-                        <input id="colorNaranjaOscuro" type="radio" name="fondo" value="colorNaranjaOscuro">
-                    </li>
-                    <li>
-                        <input id="colorNaranjaClaro" type="radio" name="fondo" value="colorNaranjaClaro">
-                    </li>
-                    <li>
-                        <input id="colorAmarillo" type="radio" name="fondo" value="colorAmarillo">
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
 
 
-                <input type="submit" value="Confirmar" class="botonEnviar">
+                    <ul class="elementos--fondo">
+                        <li>
+                            <input id="colorVerdeOscuro" type="radio" name="fondo" value="colorVerdeOscuro" checked>
+                        </li>
+
+                        <li>
+                            <input id="colorVerdeClaro" type="radio" name="fondo" value="colorVerClaro">
+                        </li>
+                        <li>
+                            <input id="colorNaranjaOscuro" type="radio" name="fondo" value="colorNaranjaOscuro">
+                        </li>
+                        <li>
+                            <input id="colorNaranjaClaro" type="radio" name="fondo" value="colorNaranjaClaro">
+                        </li>
+                        <li>
+                            <input id="colorAmarillo" type="radio" name="fondo" value="colorAmarillo">
+                        </li>
+                    </ul>
+
+                </div>
+                 
+                <div class="espacio">
+                    <input type="submit" value="Confirmar" class="botonEnviar">
+                </div>
+              
 
 
             </form>
