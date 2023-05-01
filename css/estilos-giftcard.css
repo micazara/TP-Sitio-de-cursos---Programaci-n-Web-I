@@ -14,8 +14,19 @@ COLOR TEXTO:#1D438A/
     grid-template-columns: 1fr 1fr;
 }
 
-
-
+.cajauno--tarjeta{
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+.cajauno--tarjeta--precio{
+    position: absolute;
+    padding: 15px;
+    bottom: 905px;
+    left: 320px;
+    background-color: #11ad62;
+    border-radius: 10px 0 10px 0;
+}
 h1{
     font-size: xx-large;
 }
