@@ -12,37 +12,41 @@ COLOR TEXTO:#1D438A/
 .caja--tarjeta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-   
 }
 
-.cajaUno--tarjeta {
-    width: 100%;
-    border: 3px solid blue;
+
+
+h1 {
+    font-size: xx-large;
 }
 
 .cajaDos--tarjeta {
-    width: 100%;
+    text-align: start;
     display: block;
-    border: 3px solid blue;
-    align-items: start;
+    box-sizing: border-box;
     justify-content: start;
+    padding: 0%;
+    margin: 0%;
+
+
 }
 
 .elementos--color {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
-}
-
-.elementos--color ul {
-    padding: 0;
-    margin: 0;
+    justify-content: flex-start;
+    padding: 0%;
 }
 
 .elementos--color img {
     border-radius: 100%;
+    margin-right: 40px;
+}
 
+.elementos--color input {
+    margin-left: 25px;
+    margin-right: 62px;
 }
 
 .elementos--fuente {
@@ -50,20 +54,40 @@ COLOR TEXTO:#1D438A/
     flex-direction: row;
     list-style: none;
     align-content: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding: 0%;
+}
+
+.elementos--fuente li {
+    margin-right: 75px;
+}
+
+.elementos--fuente input {
+    margin-right: 14px;
 }
 
 .subtitulo {
-    font-size: larger;
+    font-size: x-large;
 }
 
 .monto {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+
 }
 
-.elementos--posiciones{
+.monto input {
+    width: 45%;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: rgba(128, 104, 217, 0.479);
+    background: linear-gradient(103deg, rgba(128, 104, 217, 0.646) 18%, rgba(119, 92, 217, 0.61) 38%, rgba(155, 136, 222, 0.701) 74%);
+}
+
+
+.elementos--posiciones {
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -71,30 +95,31 @@ COLOR TEXTO:#1D438A/
     justify-content: space-evenly;
 }
 
-.elementos--posiciones img{
+.elementos--posiciones img {
     width: 70px;
 }
 
-.elementos--fondo{
+.elementos--fondo {
     display: flex;
     flex-direction: row;
     list-style: none;
     align-content: flex-start;
     justify-content: space-evenly;
 }
-.elementos--fondo img{
+
+.elementos--fondo img {
     width: 60px;
 }
 
 
-.botonEnviar{
+.botonEnviar {
     font-size: 100%;
     font-family: inherit;
     border-radius: 10px;
     border: none;
-    color:whitesmoke;
+    color: whitesmoke;
     background-color: #11ad62;
     margin: 20px;
     padding: 15px;
-    width: 100%
+
 }
