@@ -15,127 +15,134 @@
 
     <header id="inicio">
 
-        <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
+        <div class="cajaUno">
+            <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
 
-        <!--logo-->
-        <img src="img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50">
+            <!--logo-->
+            <img src="./img/carpiMedia/isologotipoCarpi.png" alt="logo" width="50" height="50">
 
-        <!--busqueda-->
+            <!--busqueda-->
 
-        <form action="#" method="post">
-            <datalist id="busqueda">
-                <option value="Curso Java">
-                <option value="Curso HTML">
-                <option value="Curso CSS">
-            </datalist>
 
-            <input type="text" name="postal" list="busqueda" autofocus>
+            <form action="#" method="post">
+                <datalist id="busqueda">
+                    <option value="Curso Java">
+                    <option value="Curso HTML">
+                    <option value="Curso CSS">
+                </datalist>
 
-            <input type="submit" value="Buscar">
-        </form>
+                <input type="text" id="buscador" name="postal" list="busqueda" autofocus>
 
-        <!--carrito-->
-        <img src="img/chango.png" alt="changuito" width="40" height="40">
+                <input type="submit" value="Buscar">
+            </form>
 
-        <p>2</p>
+            <!--carrito-->
+            <div id="chango">
+                <img src="img/chango.png" alt="changuito" width="40" height="40">
 
-        <nav>
+                <p id="numero-chango">2</p>
+            </div>
 
-            <ul>
-                <li>
-                    <a href="index.html">Inicio</a>
-                </li>
+        </div>
+        <div class="cajaDos">
+            <nav>
 
-                <li>
-                    <a href="">Calendario de cursos</a>
-                </li>
+                <ul>
+                    <li>
+                        <a href="./index.html">Home</a>
+                    </li>
 
-                <li>
-                    <a href="">Regala una giftcard</a>
-                </li>
+                    <li>
+                        <a href="./calendario.html">Calendario de cursos</a>
+                    </li>
 
-                <li>
-                    <a href="">Inscripción a cursos</a>
-                </li>
+                    <li>
+                        <a href="./regala_giftCard.html">Regala una Gift card</a>
+                    </li>
 
-                <li>
-                    <a href="./formulario_contacto.html">Contacto</a>
-                </li>
-            </ul>
+                    <li>
+                        <a href="./formulario_contacto.html">Contacto</a>
+                    </li>
+                </ul>
 
-        </nav>
-
+            </nav>
+        </div>
 
     </header>
 
     <main>
-        <section class = "campos">
-            <!--nombre y apellido (obligatorio)-->
-            <form action="#" method="post">
-                <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
-                <input id="nombre_y_apellido" type="text" required name="nombreyapellido">
-                <input type="submit" value="Enviar">
-            </form>
+        <section class="contenedor">
+            <section class="caja1">
+                <section>
+                    <!--nombre y apellido (obligatorio)-->
+                    <form action="#" method="post" class = "campos">
+                        <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
+                        <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="sombra">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+
+                <section>
+
+                    <!--mail (obligatorio)-->
+                    <form action="#" method="post" class = "campos">
+                        <label for="mail">Ingrese su e-mail</label>
+                        <input type="email" required name="mail" id="mail">
+                        <input type="submit" value="Enviar">
+                    </form>
+
+                </section>
+
+                <section>
+                    <!--tel (opcional)-->
+                    <form action="#" method="post" class = "campos">
+                        <label for="telefono">Ingrese su número telefónico</label>
+                        <input type="tel" name="telefono" id="telefono">
+                        <input type="submit" value="Enviar" class="botonesDeEnvio">
+                    </form>
+
+                </section>
+
+
+                <section>
+                    <!--consulta (obligatorio)-->
+                    <form action="#" method="post">
+                        <p  class = "campos">Ingrese su consulta</p>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </section>
+
+            </section>
+
+            <section class="caja2">
+                <!--datos de contacto-->
+                <p>Datos de contacto:</p>
+                <p>E-mail: carpicursoscontacto@gmail.com</p>
+                <p>Celular: 1136364083</p>
+                <p>Nuestras redes: </p>
+                <div>
+
+                    <ul>
+                        <li>
+                            <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
+                        </li>
+
+                        <li>
+                            <a><img src="img/ig.png" alt="instagram" width="20" height="20"></a>
+                        </li>
+
+                        <li>
+                            <a><img src="img/tw.png" alt="twitter" width="20" height="20"></a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </section>
         </section>
 
-        <section class = "campos">
-
-            <!--mail (obligatorio)-->
-            <form action="#" method="post">
-                <label for="mail">Ingrese su e-mail</label>
-                <input type="email" required name="mail" id="mail">
-                <input type="submit" value="Enviar">
-            </form>
-
-        </section>
-
-        <section class = "campos">
-            <!--tel (opcional)-->
-            <form action="#" method="post">
-                <label for="telefono">Ingrese su número telefónico</label>
-                <input type="tel" name="telefono" id="telefono">
-                <input type="submit" value="Enviar">
-            </form>
-
-        </section>
-
-
-        <section class = "campos">
-            <!--consulta (obligatorio)-->
-            <form action="#" method="post">
-                <p>Ingrese su consulta</p>
-                <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-
-        <section class = "datosDeContacto">
-            <!--datos de contacto-->
-            <p>Datos de contacto:</p>
-            <p>Nuestras redes: </p>
-            <p>E-mail: carpicursoscontacto@gmail.com</p>
-            <p>Celular: 1136364083</p>
-            <div>
-
-                <ul>
-                    <li>
-                        <a><img src="img/fb.png" alt="facebook" width="20" height="20"></a>
-                    </li>
-
-                    <li>
-                        <a><img src="img/ig.png" alt="instagram" width="20" height="20"></a>
-                    </li>
-
-                    <li>
-                        <a><img src="img/tw.png" alt="twitter" width="20" height="20"></a>
-                    </li>
-                </ul>
-
-            </div>
-
-        </section>
-
-        <section class = "campos">
+        <section class="caja3">
             <!--mapa-->
             <p>Nuestra ubicación:
             </p>
@@ -187,11 +194,11 @@
                     <li>
                         <a href="#inicio">Ir arriba</a>
                     </li>
-                    
+
                     <li>
                         <a href="./index.html">Home</a>
                     </li>
-                        
+
                     <li>
                         <a href="./calendario.html">Calendario de cursos</a>
                     </li>

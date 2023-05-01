@@ -1,0 +1,96 @@
+.bloque-inscripcion{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   margin: auto;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.bloque-inscripcion h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.boton-confirmar img{
+    background-color: #11ad8b;
+    padding: 10px;
+    border-radius: 50px; 
+    display: block;
+}
+
+.boton-confirmar :hover{
+    background-color: #0d8f73;
+}
+
+#boton-agregar-persona img{
+    background-color: #11ad62;
+    padding: 10px;
+    border-radius: 50px;
+    display: block;
+}
+
+#boton-agregar-persona :hover{
+    background-color: #0e8d50;
+    padding: 12px;
+    transition: 0.5s;
+}
+
+
+.campo{
+    padding: 12px;
+    margin-right: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+
+#campos{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fila-campo{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fila-agregar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#precio{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+
+
+#boton-inscribirse{
+    display: block;
+    background-color: #11ad62;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+#boton-inscribirse :hover {
+    color: rgb(164, 202, 185);
+    transition: 0.5s;
+}

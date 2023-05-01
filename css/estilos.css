@@ -37,6 +37,46 @@ header {
     height: 70px;
 }
 
+.cajaUno form {
+    align-items: center;
+}
+
+#buscador{
+    width: 400px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+#boton-buscar{
+    border: none;
+    color: white;
+    background-color: #58d38c;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#numero-chango{
+    width: 25px;
+    height: 25px;
+    margin: auto;
+    text-align: center;
+    background-color: #58d38c;
+    color: aliceblue;
+    border-radius: 50px;
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+
+#chango{
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+
 .cajaDos {
     display: flex;
     flex-direction: row;
@@ -75,7 +115,7 @@ nav ul {
 }
 
 nav li {
-    padding: 15px;
+    padding: 5px 30px;
 
 }
 
@@ -92,7 +132,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-weight: bold;
+    font-weight: 200;
     font-size: large;
     padding-bottom: 10px;
 
@@ -121,6 +161,11 @@ footer ul a:hover {
 
 footer li {
     padding: 3px;
+}
+
+footer div h3{
+    font-weight: 300;
+    margin-bottom: 5px;
 }
 
 .redesSociales {

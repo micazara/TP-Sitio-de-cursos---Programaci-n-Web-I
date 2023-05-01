@@ -1,3 +1,7 @@
+footer div {
+    font-weight: 200;
+}
+
 .paraAcomodarlos {
     display: flex;
     flex-direction: row;
@@ -31,18 +35,11 @@
 .tarjetita_cursos {
     background-color: aliceblue;
     border-radius: 30px;
-    width: 100%;
-    margin:  2%;
-    justify-content: center;
-   
-   
+   padding: 30px;
 }
 
 .tarjetita_cursos img {
-    width: 80%;
-    padding: 5%;
     border-radius: 30px;
-    justify-content: center;
 }
 .tarjetita_cursos a{
     text-decoration: none;
@@ -52,4 +49,21 @@
     text-decoration:dotted;
     color: #11ad62;
     transition: 0.6s;
+}
+
+.tarjetita_cursos button{
+    background-color: #11ad62;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+.tarjetita_cursos button a{
+    color: white;
+}
+
+.tarjetita_cursos button :hover {
+    color: rgb(182, 224, 205);
+    transition: 0.5s;
 }
