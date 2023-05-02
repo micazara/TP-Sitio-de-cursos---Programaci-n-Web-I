@@ -15,23 +15,35 @@ COLOR TEXTO:#1D438A/
 }
 
 .cajauno--tarjeta{
-    position: relative;
-    left: 150px;
-    top: 150px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items:center;
+    align-items: stretch;
     
 }
 .cajauno--tarjeta img{
     border-radius: 10px;
     box-shadow: -11px 15px 14px -2px rgba(14,6,48,0.56);
+    margin-left: 100px;
+    margin-top: 150px;
+    align-items: center;
+   
+ 
 }
 .cajauno--tarjeta--precio{
     position: absolute;
     padding: 15px;
-    bottom: 870px;
-    left: 320px;
+    margin-top: 150px;
+    margin-left: 420px;
     background-color: #021009;
     color: #11ad62;
     border-radius: 10px 0 10px 0;
+}
+.cajauno--tarjeta--texto{
+text-align: center;
+position: relative;
 }
 h1{
     font-size: xx-large;
