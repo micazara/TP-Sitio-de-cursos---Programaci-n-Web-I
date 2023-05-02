@@ -13,25 +13,27 @@ main {
     grid-template-rows: 1fr;
 }
 
-.caja1{
-text-align: left;
-padding-left: 200px;
+.caja1 {
+    text-align: left;
+    padding-left: 200px;
 }
 
-.caja2{
-text-align: right;
-padding-right: 200px;
+.caja2 {
+    text-align: right;
+    padding-right: 200px;
 }
 
-.caja2 li{
+.caja2 li {
     list-style-position: inside;
 }
 
-.caja3{
+.caja3 {
     padding-top: 35px;
     text-align: center;
 }
 
-.campos{
-    padding-bottom: 15px;;
+.campos {
+    padding-bottom: 15px;
+    ;
 }
+
