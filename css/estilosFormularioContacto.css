@@ -9,10 +9,33 @@
 }
 
 .caja1 {
-    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    background: rgb(191,195,255);
+    background: linear-gradient(90deg, rgba(191,195,255,0.8297443977591037) 19%, rgba(244,182,238,0.874562324929972) 41%, rgba(67,217,131,0.8605567226890756) 100%);
+    box-shadow: -11px 15px 14px -2px rgba(14,6,48,0.56);
+    padding: 5%;
+    margin: 10%;
     text-align: left;
-    padding-left: 200px;
     font-size: larger;
+    border-radius: 30px 50px 50px 100px;
+
+}
+#boton-enviar{
+    width: 50%;
+    justify-items: end;
+    text-align: center;
+    font-size: 100%;
+    font-family: inherit;
+    border-radius: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: #11ad62;
+    padding: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 0px 10px 0px 10px;
+
 }
 
 .caja2 {
