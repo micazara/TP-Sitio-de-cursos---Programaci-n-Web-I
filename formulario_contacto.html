@@ -2,6 +2,9 @@
 <html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilos-formulario-contacto.css">
@@ -11,6 +14,7 @@
 <body>
 
     <header id="inicio">
+
 
         <div class="cajaUno">
             <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
@@ -30,7 +34,7 @@
 
                 <input type="text" id="buscador" name="postal" list="busqueda" autofocus>
 
-                <input type="submit" value="Buscar">
+                <input id="boton-buscar" type="submit" value="Buscar">
             </form>
 
             <!--carrito-->
@@ -76,7 +80,7 @@
                     <form action="#" method="post" class="campos">
                         <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
                         <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="input">
-                        <input type="submit" value="Enviar">
+
                     </form>
                 </section>
 
@@ -86,7 +90,7 @@
                     <form action="#" method="post" class="campos">
                         <label for="mail">Ingrese su e-mail</label>
                         <input type="email" required name="mail" id="mail" class="input">
-                        <input type="submit" value="Enviar">
+
                     </form>
 
                 </section>
@@ -96,7 +100,7 @@
                     <form action="#" method="post" class="campos">
                         <label for="telefono">Ingrese su número telefónico</label>
                         <input type="tel" name="telefono" id="telefono" class="input">
-                        <input type="submit" value="Enviar" class="botonesDeEnvio">
+
                     </form>
 
                 </section>
@@ -106,11 +110,11 @@
                     <!--consulta (obligatorio)-->
                     <form action="#" method="post">
                         <p class="campos">Ingrese su consulta</p>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10" class ="textArea"></textarea>
-                        <input type="submit" value="Enviar">
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" class="textArea"></textarea>
+
                     </form>
                 </section>
-
+                <input type="submit" value="Enviar" id="boton-enviar">
             </section>
             
             <section class="caja2">
@@ -215,6 +219,7 @@
         <!--redes-->
 
         <div>
+
 
             <h3>Redes sociales</h3>
             <img src="././img/carpiMedia/ImagotipoAlternativa03.png" id="logo-footer" alt="Logo de Carpi" width="100px"
