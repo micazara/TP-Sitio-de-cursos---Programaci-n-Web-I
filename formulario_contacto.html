@@ -42,7 +42,7 @@
 
                 <p id="numero-chango">2</p>
             </div>
-           
+
         </div>
         <div class="cajaDos">
             <nav>
@@ -80,9 +80,10 @@
                 <section>
                     <!--nombre y apellido (obligatorio)-->
                     <form action="#" method="post" class="campos">
-                        <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
-                        <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="input">
-
+                        <div class="para_alinear">
+                            <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
+                            <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="input">
+                        </div>
                     </form>
                 </section>
 
@@ -90,9 +91,10 @@
 
                     <!--mail (obligatorio)-->
                     <form action="#" method="post" class="campos">
-                        <label for="mail">Ingrese su e-mail</label>
-                        <input type="email" required name="mail" id="mail" class="input">
-
+                        <div class="para_alinear">
+                            <label for="mail">Ingrese su e-mail</label>
+                            <input type="email" required name="mail" id="mail" class="input">
+                        </div>
                     </form>
 
                 </section>
@@ -100,9 +102,10 @@
                 <section>
                     <!--tel (opcional)-->
                     <form action="#" method="post" class="campos">
-                        <label for="telefono">Ingrese su número telefónico</label>
-                        <input type="tel" name="telefono" id="telefono" class="input">
-
+                        <div class="para_alinear">
+                            <label for="telefono">Ingrese su número telefónico</label>
+                            <input type="tel" name="telefono" id="telefono" class="input">
+                        </div>
                     </form>
 
                 </section>
@@ -112,14 +115,17 @@
                     <!--consulta (obligatorio)-->
                     <form action="#" method="post">
                         <p class="campos">Ingrese su consulta</p>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10" class="textArea"></textarea>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"></textarea>
 
                     </form>
                 </section>
                 <input type="submit" value="Enviar" id="boton-enviar">
             </section>
-            
+
             <section class="caja2">
+                <div id = "img_contacto">
+                    <img src="img/carpiMedia/ImagotipoAlternativa02.png" alt="logo">
+                </div>
                 <!--datos de contacto-->
                 <p>Datos de contacto:</p>
                 <p>E-mail: carpicursoscontacto@gmail.com</p>
