@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-}
-
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -10,11 +6,13 @@
 .caja1 {
     text-align: left;
     padding-left: 200px;
+    padding-top: 50px;
 }
 
 .caja2 {
     text-align: right;
     padding-right: 200px;
+    padding-top: 50px;
 }
 
 .caja2 li {
@@ -24,9 +22,16 @@
 .caja3 {
     padding-top: 35px;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .campos {
     padding-bottom: 15px;
+}
+
+.input{
+    border: none;
+    border-radius: 20px;
+    background-color: #b0b4d4;
 }
 
