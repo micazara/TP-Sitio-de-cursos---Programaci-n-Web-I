@@ -22,6 +22,7 @@
 
 }
 #boton-enviar{
+    width: 50%;
     justify-items: end;
     text-align: center;
     font-size: 100%;
