@@ -115,11 +115,11 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav li {
-    padding: 5px 30px;
+    padding: 5px 20px
 
 }
 
