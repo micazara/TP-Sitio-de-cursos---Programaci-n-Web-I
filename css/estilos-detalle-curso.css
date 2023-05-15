@@ -33,7 +33,7 @@
 
 #docente {
     display: flex;
-    background-color: #a9aab4;
+    background-color: #b3b0c4;
     padding: 20px 70px;
 }
 
@@ -112,7 +112,7 @@ padding: 0;
 
 
 .unidades-curso li {
-    background-color: rgb(222, 228, 231);
+    background-color: rgba(141, 113, 243, 0.479);
     padding: 10px;
     margin: 0;
 }

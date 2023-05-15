@@ -11,6 +11,11 @@ footer div {
     padding-bottom: 5%;
 }
 
+.paraAcomodarlos img{
+    background-color: white;
+    border-radius: 50px;
+}
+
 .tarjetitas {
     display: flex;
     padding: 60px;
@@ -66,4 +71,45 @@ footer div {
 .tarjetita_cursos button :hover {
     color: rgb(182, 224, 205);
     transition: 0.5s;
+}
+
+#flechas{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    position: relative;
+    bottom:350px;
+    margin-bottom: -40px;
+}
+
+.flechita{
+    height: 50px;
+    width: 50px;
+    display: block;
+    color: white;
+    background-color: rgb(49, 47, 47);
+    border-radius: 50px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    opacity: 60%;
+}
+
+.flechita:hover{
+    opacity: 100%;
+    transition: 0.3s;
+}
+
+.precio-tarjeta{
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 70px;
+    left: 125px;
+    border-radius: 30px;
+    margin-bottom: -42px;
 }
