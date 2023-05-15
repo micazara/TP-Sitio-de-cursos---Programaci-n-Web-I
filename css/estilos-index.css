@@ -78,7 +78,8 @@ footer div {
     justify-content: space-between;
     margin: 0px 20px;
     position: relative;
-    bottom:350px
+    bottom:350px;
+    margin-bottom: -40px;
 }
 
 .flechita{
