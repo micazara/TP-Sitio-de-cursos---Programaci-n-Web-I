@@ -180,4 +180,13 @@ footer div h3{
 #logo-footer {
     display: block;
     margin: auto;
+    width: 100px;
+}
+#redes-logos {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-around;
 }
