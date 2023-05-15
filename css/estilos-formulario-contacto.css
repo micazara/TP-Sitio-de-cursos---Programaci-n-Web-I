@@ -39,6 +39,14 @@
     list-style-position: inside;
 }
 
+.caja2 ul{
+    padding: inherit;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .caja3 {
     padding-top: 35px;
     text-align: center;
