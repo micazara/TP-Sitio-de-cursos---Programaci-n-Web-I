@@ -11,20 +11,24 @@ footer div {
     padding-bottom: 5%;
 }
 
-.paraAcomodarlos img{
+.paraAcomodarlos img {
     background-color: white;
     border-radius: 50px;
 }
 
 .tarjetitas {
     display: flex;
-    padding: 60px;
+    padding: 30px;
     gap: 30px;
 }
 
 .tarjetita {
     font-size: larger;
-    text-align: center
+    text-align: center;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    background: rgb(191, 195, 255);
+    background: linear-gradient(90deg, rgba(191, 195, 255, 0.8297443977591037) 19%, rgba(244, 182, 238, 0.874562324929972) 41%, rgba(67, 217, 131, 0.8605567226890756) 100%);
 }
 
 .tarjetita img {
@@ -40,23 +44,26 @@ footer div {
 .tarjetita_cursos {
     background-color: aliceblue;
     border-radius: 30px;
-   padding: 30px;
+    padding: 30px;
 }
+
 
 .tarjetita_cursos img {
     border-radius: 30px;
 }
-.tarjetita_cursos a{
+
+.tarjetita_cursos a {
     text-decoration: none;
     color: #1f407e;
 }
-.tarjetita_cursos a:hover{
-    text-decoration:dotted;
+
+.tarjetita_cursos a:hover {
+    text-decoration: dotted;
     color: #11ad62;
     transition: 0.6s;
 }
 
-.tarjetita_cursos button{
+.tarjetita_cursos button {
     background-color: #11ad62;
     border: none;
     padding: 10px;
@@ -64,7 +71,7 @@ footer div {
     font-size: 100%;
 }
 
-.tarjetita_cursos button a{
+.tarjetita_cursos button a {
     color: white;
 }
 
@@ -73,16 +80,16 @@ footer div {
     transition: 0.5s;
 }
 
-#flechas{
+#flechas {
     display: flex;
     justify-content: space-between;
     margin: 0px 20px;
     position: relative;
-    bottom:350px;
+    bottom: 350px;
     margin-bottom: -40px;
 }
 
-.flechita{
+.flechita {
     height: 50px;
     width: 50px;
     display: block;
@@ -96,12 +103,12 @@ footer div {
     opacity: 60%;
 }
 
-.flechita:hover{
+.flechita:hover {
     opacity: 100%;
     transition: 0.3s;
 }
 
-.precio-tarjeta{
+.precio-tarjeta {
     width: 50px;
     text-align: center;
     padding: 5px;
