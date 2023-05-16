@@ -16,6 +16,7 @@ COLOR TEXTO:#1D438A/
 }
 
 .cajauno--tarjeta{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: flex;
@@ -29,7 +30,6 @@ COLOR TEXTO:#1D438A/
     box-shadow: -11px 15px 14px -2px rgba(14,6,48,0.56);
     margin: auto;
     margin-top: 150px;
-    align-items: center;
 
 }
 .cajauno--tarjeta--precio{
@@ -43,7 +43,8 @@ COLOR TEXTO:#1D438A/
 }
 .cajauno--tarjeta--texto{
 text-align: center;
-position: relative;
+justify-content: center;
+margin-bottom: 310px;
 }
 h1{
     font-size: xx-large;
