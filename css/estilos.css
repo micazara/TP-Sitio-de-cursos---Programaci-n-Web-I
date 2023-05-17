@@ -192,30 +192,3 @@ footer div h3 {
     margin-right: 5px;
     justify-content: space-around;
 }
-
-@keyframes color-change {
-    0% {
-
-        background: rgb(56, 160, 144);
-        background: linear-gradient(90deg, rgba(56, 160, 144, 1) 3%, rgba(63, 124, 239, 1) 48%, rgba(41, 83, 161, 1) 78%, rgba(31, 64, 126, 1) 100%);
-        opacity: 1;
-    }
-
-    25% {
-        background: rgb(56, 160, 144);
-        background: linear-gradient(90deg, rgba(56, 160, 144, 1) 3%, rgba(57, 156, 155, 1) 14%, rgba(63, 124, 239, 1) 51%, rgba(41, 83, 161, 1) 78%, rgba(31, 64, 126, 1) 100%);
-        opacity: 1;
-    }
-
-    50% {
-        background: rgb(56, 160, 144);
-        background: linear-gradient(90deg, rgba(56, 160, 144, 1) 5%, rgba(57, 156, 155, 1) 18%, rgba(63, 124, 239, 1) 53%, rgba(41, 83, 161, 1) 79%, rgba(31, 64, 126, 1) 100%);
-        opacity: 1;
-    }
-
-    100% {
-        background: rgb(56, 160, 144);
-        background: linear-gradient(90deg, rgba(56, 160, 144, 1) 5%, rgba(57, 156, 155, 1) 28%, rgba(63, 124, 239, 1) 61%, rgba(41, 83, 161, 1) 84%, rgba(31, 64, 126, 1) 100%);
-        opacity: 1;
-    }
-}
