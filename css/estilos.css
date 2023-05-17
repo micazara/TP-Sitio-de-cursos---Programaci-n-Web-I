@@ -88,6 +88,8 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
+    animation: barra-color 5s infinite;
+    animation-direction: alternate;
 
 }
 
@@ -199,7 +201,7 @@ footer div h3 {
         opacity: 1;
     }
 
-    50% {
+    25% {
         background-color: #2452a7;
         opacity: 1;
     }
@@ -211,6 +213,28 @@ footer div h3 {
 
     100% {
         background-color: #3275f1;
+        opacity: 1;
+    }
+}
+
+@keyframes barra-color{
+    0% {
+        background-color: #afb1d5;
+        opacity: 1;
+    }
+
+    25% {
+        background-color: #9c9fd1;
+        opacity: 1;
+    }
+
+    50% {
+        background-color: #878bd7;
+        opacity: 1;
+    }
+
+    100% {
+        background-color: #6368cc;
         opacity: 1;
     }
 }
