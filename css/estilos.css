@@ -139,6 +139,8 @@ footer {
     font-weight: 200;
     font-size: large;
     padding-bottom: 10px;
+    animation: color-change 5s infinite ease-in-out ;
+    animation-direction: alternate;
 
 }
 
@@ -190,3 +192,21 @@ footer div h3{
     margin-right: 5px;
     justify-content: space-around;
 }
+
+@keyframes color-change {
+    0% {
+        background-color:  #1f407e;
+        opacity: 1;
+      }
+      25% {
+        background-color: #2953a1;
+        opacity: 1;
+      }
+      50% {
+        background-color: #3366c6;
+        opacity: 1;
+      }
+      100% {
+        background-color:#3f7cef;
+        opacity: 1;
+      }}
