@@ -1,18 +1,22 @@
 .contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
 }
+
 
 .caja1 {
     display: flex;
     flex-direction: column;
-    background: rgb(191, 195, 255);
-    background: linear-gradient(90deg, rgba(191, 195, 255, 0.8297443977591037) 19%, rgba(244, 182, 238, 0.874562324929972) 41%, rgba(67, 217, 131, 0.8605567226890756) 100%);
     box-shadow: -11px 15px 14px -2px rgba(14, 6, 48, 0.56);
     padding: 5%;
     margin: 10%;
     text-align: left;
+    border-radius: 20px 15px 20px 15px;
+    background: rgb(114, 229, 174);
+    background: linear-gradient(164deg, rgba(114, 229, 174, 0.9641981792717087) 13%, rgba(247, 179, 225, 0.9641981792717087) 57%, rgba(141, 178, 249, 0.978203781512605) 97%);
 }
+
 
 #boton-enviar {
     width: 50%;
@@ -32,25 +36,45 @@
 }
 
 .caja2 {
-    text-align: left;
-}
-
-.caja2 li {
-    list-style-position: inside;
-}
-
-.caja2 ul{
-    padding: inherit;
-    list-style: none;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.caja3 {
-    padding-top: 35px;
+
+#img_contacto img {
+    width: 250px;
+    justify-content: right;
+    display: block;
+    margin: auto;
+}
+
+.datos-contacto {
     text-align: center;
-    padding-bottom: 40px;
+}
+
+.redes ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.redes li img {
+    width: 55px;
+    height: 55px;
+}
+
+.redes a :hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.5s ease-out;
+
 }
 
 .campos {
@@ -71,10 +95,16 @@
     align-items: center;
 }
 
-#img_contacto img {
-    width: 100px;
-    height: 100px;
-    justify-content: right;
-    display: block;
-    margin: auto;
+.caja3 {
+    padding-top: 35px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.caja3 iframe {
+    width: 95%;
+    height: 300px;
+    border-radius: 20px 15px 20px 15px;
+    margin: 2%;
+
 }
