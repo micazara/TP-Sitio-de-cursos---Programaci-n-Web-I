@@ -88,6 +88,8 @@ header {
     width: 100%;
     align-items: center;
     justify-content: center;
+    animation: barra-color 5s infinite;
+    animation-direction: alternate;
 
 }
 
@@ -199,7 +201,7 @@ footer div h3 {
         opacity: 1;
     }
 
-    50% {
+    25% {
         background-color: #2452a7;
         opacity: 1;
     }
@@ -215,6 +217,7 @@ footer div h3 {
     }
 }
 
+<<<<<<< HEAD
 .arriba{
     display: block;
     width: 50px;
@@ -236,4 +239,26 @@ footer div h3 {
 .arriba:hover{
     background-color: #58d38c;
     transition: 1s;
+=======
+@keyframes barra-color{
+    0% {
+        background-color: #afb1d5;
+        opacity: 1;
+    }
+
+    25% {
+        background-color: #9c9fd1;
+        opacity: 1;
+    }
+
+    50% {
+        background-color: #878bd7;
+        opacity: 1;
+    }
+
+    100% {
+        background-color: #6368cc;
+        opacity: 1;
+    }
+>>>>>>> 7277a66b1e2cae5961144a97361285c0773b27eb
 }
