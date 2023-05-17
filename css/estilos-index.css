@@ -47,7 +47,6 @@ footer div {
     padding: 30px;
 }
 
-
 .tarjetita_cursos img {
     border-radius: 30px;
 }
@@ -77,8 +76,10 @@ footer div {
 
 .tarjetita_cursos button :hover {
     color: rgb(182, 224, 205);
-    transition: 0.5s;
+    transition: 0.5s ;
 }
+
+
 
 #flechas {
     display: flex;
