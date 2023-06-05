@@ -19,22 +19,9 @@ function agregarCurso() {
     document.getElementById('numero-chango').innerHTML = numero;
 }
 
-function restar() {
-    let numero = cargarValor();
-    if (numero > 0) {
-        numero--;
-    }
 
-    localStorage.setItem('valor', numero);
-    document.getElementById('contador').innerHTML = numero;
-}
 
-function limpiar() {
-    numero = 0;
-    localStorage.setItem('valor', numero);
-    document.getElementById('contador').innerHTML = numero;
-}
-
+/*
 function colorFondo() {
     let fondo = document.getElementById('caja-foto').style.backgroundColor;
 
@@ -47,3 +34,4 @@ function colorFondo() {
     }
 
 }
+*/
