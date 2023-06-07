@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="./css/estilos-index.css">
     <link rel="stylesheet" href="./css/input.css">
     <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
+    <script src="js/contador.js"></script>
 </head>
 
-<body>
+<body onload="setValorPagina()">
 
     <header id="inicio">
 
@@ -42,7 +43,7 @@
             <div id="chango">
                 <img src="img/chango.png" alt="changuito" width="40" height="40">
 
-                <p id="numero-chango">2</p>
+                <p id="numero-chango">0</p>
             </div>
 
         </div>
@@ -131,8 +132,8 @@
                     60 hrs
                 </p>
 
-                <button>
-                    <a href="inscripcion-java.html">Comprar</a>
+                <button onclick="agregarCurso()">
+                    <a>Comprar</a>
                 </button>
             </article>
 
@@ -151,8 +152,8 @@
                     60 hrs
                 </p>
 
-                <button>
-                    <a href="inscripcion-html.html">Comprar</a>
+                <button onclick="agregarCurso()">
+                    <a>Comprar</a>
                 </button>
             </article>
 
@@ -171,8 +172,8 @@
                     60 hrs
                 </p>
 
-                <button>
-                    <a href="inscripcion-css.html">Comprar</a>
+                <button onclick="agregarCurso()">
+                    <a>Comprar</a>
                 </button>
             </article>
 
@@ -193,8 +194,8 @@
                     60 hrs
                 </p>
 
-                <button>
-                    <a href="inscripcion-python.html">Comprar</a>
+                <button onclick="agregarCurso()">
+                    <a >Comprar</a>
                 </button>
             </article>
 
