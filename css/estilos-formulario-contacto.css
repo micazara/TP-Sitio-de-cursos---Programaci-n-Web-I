@@ -79,22 +79,27 @@
 
 .campos {
     padding-bottom: 15px;
+    font-size: large;
 }
 
+
 .input {
-    padding: 3px;
     margin-left: 3px;
     border: none;
     border-radius: 20px;
     background-color: white;
-
+    font-size:large;
 }
 
 .para_alinear {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
+.para_alinear label{
+    font-size: large;
+}
 .caja3 {
     padding-top: 35px;
     text-align: center;
