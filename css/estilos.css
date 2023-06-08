@@ -218,6 +218,8 @@ footer div h3 {
     }
 }
 
+<<<<<<< HEAD
+=======
 @keyframes barra-color{
     0% {
         background-color: #afb1d5;
@@ -239,6 +241,7 @@ footer div h3 {
         opacity: 1;
     }
 }
+>>>>>>> 2aec460280cb102b3732f40c23c551846fbcd537
 .arriba{
     display: block;
     width: 50px;
@@ -255,7 +258,10 @@ footer div h3 {
     background-repeat: no-repeat;
     background-position: center;
     z-index: 999999999;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2aec460280cb102b3732f40c23c551846fbcd537
 }
 
 .arriba:hover{

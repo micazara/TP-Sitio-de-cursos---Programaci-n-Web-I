@@ -1,20 +1,21 @@
-#nombre_y_apellido{
+#nombre_y_apellido {
     background-image: url(../img/icon-input-nombre-apellido.svg);
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    background-size: 11px;
-    padding: 5px 11px 3px 29px;
-}
-
-#mail{
-    background-image: url(../img/icon-input-mail.svg);
     background-repeat: no-repeat;
     background-position: 10px center;
     background-size: 12px;
     padding: 5px 11px 3px 29px;
 }
 
-#telefono{
+#mail {
+    background-image: url(../img/icon-input-mail.svg);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 12px;
+    padding: 5px 11px 3px 29px;
+   
+}
+
+#telefono {
     background-image: url(../img/icon-input-tel.svg);
     background-repeat: no-repeat;
     background-position: 10px center;
