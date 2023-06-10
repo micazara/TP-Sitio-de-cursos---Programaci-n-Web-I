@@ -83,7 +83,7 @@
 
                 <section>
                     <!--nombre y apellido (obligatorio)-->
-                    <form action="#" method="post" class="campos">
+                    <form action="#" method="post" class="campos" name="form">
                         <div class="para_alinear">
                             <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
                             <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="input">
@@ -94,7 +94,7 @@
                 <section>
 
                     <!--mail (obligatorio)-->
-                    <form action="#" method="post" class="campos">
+                    <form action="#" method="post" class="campos" name="form">
                         <div class="para_alinear">
                             <label for="mail">Ingrese su e-mail</label>
                             <input type="email" required name="mail" id="mail" class="input">
@@ -104,7 +104,7 @@
 
                 <section>
                     <!--tel (opcional)-->
-                    <form action="#" method="post" class="campos">
+                    <form action="#" method="post" class="campos" name="form">
                         <div class="para_alinear">
                             <label for="telefono">Ingrese su número telefónico</label>
                             <input type="tel" name="telefono" id="telefono" class="input">
@@ -116,14 +116,17 @@
 
                 <section>
                     <!--consulta (obligatorio)-->
-                    <form action="#" method="post">
+                    <form action="#" method="post" name="form">
 
                         <p class="campos">Ingrese su consulta</p>
                         <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"></textarea>
 
                     </form>
                 </section>
+                
                 <input type="submit" value="Enviar" id="boton-enviar">
+
+                <div id="mensaje" class="error"></div>
 
             </section>
 
@@ -259,7 +262,7 @@
         </div>
 
     </footer>
-
+<script src="js/formulario.js"></script>
 </body>
 
 </html>
