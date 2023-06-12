@@ -6,15 +6,17 @@ form.addEventListener("submit", (e) => {
     validar()
 })
 
+
 function validar() {
     let error = false;
-    let mensajesError = ""
+    let mensajesError = "";
 
     let nombreApellido = document.querySelector("#nombre_y_apellido").value;
     let email = document.querySelector("#mail").value
 
-    // validar mail con regex
-    // validar tel
+    // let regexEmail=/^[0-9a-zA-Z._.-]+\@[0-9a-zA-Z._.-]+\.[0-9a-zA-Z]+$/;
+
+    // let regexNumeros=/^[0-9]+$/;
 
     if (nombreApellido == "") {
         error = true;
@@ -26,10 +28,10 @@ function validar() {
         mensajesError += " <p>Por favor, ingresa un email valido</p> "
     }
 
-    if(error){
+    if (error) {
         //muestre los errores
-        mensaje.innerHTML=mensajesError;
-    }else{  
+        mensaje.innerHTML = mensajesError;
+    } else {
         form.submit();
-    } 
+    }
 }
