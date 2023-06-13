@@ -82,32 +82,38 @@
         <section class="bloque-inscripcion">
             <h2>Introduccion a HTML</h2>
             <h3>inscripción</h3>
+
             <article>
                 <form action="#" id="campos">
+                    <div id="filas">
 
-                    <div class="fila-campo">
-                        <input  id="f1campo1" class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input  id="f1campo2" class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input id="f1campo3" class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a id="borrarFila1" class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
-                    </div>
-                    <script src="js/inscripcion-limpiar-primera-fila.js"></script>
+                        <div class="fila-campo">
+                            <input id="f1campo1" class="campo" type="text" placeholder="ingrese su nombre" required>
+                            <input id="f1campo2" class="campo" type="text" placeholder="ingrese su apellido" required>
+                            <input id="f1campo3" class="campo" type="number" placeholder="ingrese su dni"
+                                pattern="[0-9]{8}" required>
+                            <a id="borrarFila1" class="boton-borrar" href=""><img src="img/signo-menos.png"
+                                    width="20px" height="20px" alt=""></a>
+                        </div>
 
-                    <div class="fila-campo">
-                        <input class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
+
+                        <div class="fila-campo">
+                            <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                            <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                            <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                            <a class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
+                                    alt=""></a>
+                        </div>
+                        <div class="fila-campo">
+                            <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                            <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                            <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                            <a class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
+                                    alt=""></a>
+                        </div>
+
                     </div>
-                    <div class="fila-campo">
-                        <input class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
-                    </div>
+
 
                     <div class="fila-agregar">
                         <a href="" id="boton-agregar-persona"><img src="img/signo-mas.png" width="20px" height="20px"
@@ -115,6 +121,8 @@
                         <p>agregar persona</p>
                     </div>
                     <script src="js/inscripcion-agregar-fila.js"></script>
+                    <script src="js/inscripcion-limpiar-primera-fila.js"></script>
+                    <script src="js/inscripcion-eliminar-fila.js"></script>
 
                     <div class="fila-agregar">
                         <p id="precio">0.00$</p> <button id="boton-inscribirse">Inscribirse</button>
@@ -122,9 +130,10 @@
                 </form>
             </article>
 
-
         </section>
-        <a href="#inicio" class = "arriba"></a>
+
+
+        <a href="#inicio" class="arriba"></a>
     </main>
     <footer>
 

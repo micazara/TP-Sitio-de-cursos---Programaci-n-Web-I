@@ -1,12 +1,16 @@
 
 function agregarFila() {
-    let fila = document.getElementsByClassName('fila-campo')[0];
-    document.getElementById('campos').appendChild(fila);
+
+    let filaPrevia = document.querySelector('.fila-campo');
+    let filaNueva = filaPrevia.cloneNode(true);
+    
+    document.getElementById('filas').appendChild(filaNueva);
+
 }
 
 let botonagregarFila = document.getElementById('boton-agregar-persona');
 
 botonagregarFila.addEventListener("click", (e) => {
     e.preventDefault();
-  
+    agregarFila();
 });

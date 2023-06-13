@@ -13,14 +13,14 @@
     margin-bottom: 10px;
 }
 
-.boton-confirmar img{
+.boton-borrar img{
     background-color: #11ad8b;
     padding: 10px;
     border-radius: 50px; 
     display: block;
 }
 
-.boton-confirmar :hover{
+.boton-borrar :hover{
     background-color: #0d8f73;
 }
 
