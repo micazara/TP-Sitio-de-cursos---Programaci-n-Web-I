@@ -79,16 +79,20 @@
 
         <!--tarjeta-->
         <section class="cajauno--tarjeta">
+            <article class="vista-previa">
+                <div class="textoPreedefinido">
+                <p>GiftCard para</p>
+                </div>
+                <p id="vista-previa-texto"> </p>
+            </article>
             <p class="cajauno--tarjeta--precio">$0000.-</p>
-            <img src="./img/giftCardPage/giftcardPrevisualizacion.png" alt="previsualización de Gift Card"
-                width="400px">
             <p class="cajauno--tarjeta--texto">VISTA PREVIA RESULTADO DE PERSONALIZACIÓN</p>
         </section>
 
         <!--tarjeta Formulario -->
         <section class="cajaDos--tarjeta">
             <h1>Personalización de Gift Card</h1>
-
+            <!--NOMBRE DESTINATARIO -->
             <form action="#" method="post" enctype="multipart/form-data">
                 <label for="nombreDestinatario"></label>
                 <input type="text" name="nombreDestinatario" id="nombreDestinatario" placeholder="Nombre Destinatario :"
@@ -118,23 +122,22 @@
                         </li>
                     </ul>
 
-
+                    <!--COLOR TEXTO-->
                     <ul class="elementos--color">
                         <li>
-                            <input id="colorVerdeOscuro" type="radio" name="color_elegido" value="colorVerdeOscuro"
-                                checked>
+                            <input id="colorVerdeOscuro" type="radio" name="color_elegido" value="1">
                         </li>
                         <li>
-                            <input id="colorVerdeClaro" type="radio" name="color_elegido" value="colorVerClaro">
+                            <input id="colorVerdeClaro" type="radio" name="color_elegido" value="2">
                         </li>
                         <li>
-                            <input id="colorNaranjaOscuro" type="radio" name="color_elegido" value="colorNaranjaOscuro">
+                            <input id="colorNaranjaOscuro" type="radio" name="color_elegido" value="3">
                         </li>
                         <li>
-                            <input id="colorNaranjaClaro" type="radio" name="color_elegido" value="colorNaranjaClaro">
+                            <input id="colorNaranjaClaro" type="radio" name="color_elegido" value="4">
                         </li>
                         <li>
-                            <input id="colorAmarillo" type="radio" name="color_elegido" value="colorAmarillo">
+                            <input id="colorAmarillo" type="radio" name="color_elegido" value="5">
                         </li>
 
                     </ul>
@@ -164,28 +167,28 @@
                         </li>
 
                     </ul>
-
+                    <!--TAMAÑO FUENTE -->
                     <ul class="elementos--fuente">
                         <li>
-                            <input id="20px" type="radio" name="tamaño_fuente" value="20px">
+                            <input id="20px" type="radio" name="tamaño_fuente" value="1">
                         </li>
                         <li>
-                            <input id="28px" type="radio" name="tamaño_fuente" value="28px" checked>
+                            <input id="28px" type="radio" name="tamaño_fuente" value="2" >
                         </li>
                         <li>
-                            <input id="32px" type="radio" name="tamaño_fuente" value="32px">
+                            <input id="32px" type="radio" name="tamaño_fuente" value="3">
                         </li>
 
                         <li>
-                            <input id="48px" type="radio" name="tamaño_fuente" value="48px">
+                            <input id="48px" type="radio" name="tamaño_fuente" value="4">
                         </li>
                         <li>
-                            <input id="60px" type="radio" name="tamaño_fuente" value="60px">
+                            <input id="60px" type="radio" name="tamaño_fuente" value="5">
                         </li>
 
                     </ul>
                 </div>
-
+                <!--MONTO -->
                 <div class="monto subtitulo espacio">
 
                     <label for="monto"> Monto $</label>
@@ -214,6 +217,8 @@
                         </li>
                         </li>
                     </ul>
+
+                    <!--POSICIONES -->
                     <ul class="elementos--posiciones">
                         <li>
                             <input id="posicionUno" type="radio" name="posicion" value="posicionUno">
@@ -254,23 +259,23 @@
                         </li>
                     </ul>
 
-
+                    <!--FONDO-->
                     <ul class="elementos--fondo">
                         <li>
-                            <input id="colorVerdeOscuro" type="radio" name="fondo" value="colorVerdeOscuro" checked>
+                            <input id="colorVerdeOscuro" type="radio" name="fondo" value="1" >
                         </li>
 
                         <li>
-                            <input id="colorVerdeClaro" type="radio" name="fondo" value="colorVerClaro">
+                            <input id="colorVerdeClaro" type="radio" name="fondo" value="2">
                         </li>
                         <li>
-                            <input id="colorNaranjaOscuro" type="radio" name="fondo" value="colorNaranjaOscuro">
+                            <input id="colorNaranjaOscuro" type="radio" name="fondo" value="3">
                         </li>
                         <li>
-                            <input id="colorNaranjaClaro" type="radio" name="fondo" value="colorNaranjaClaro">
+                            <input id="colorNaranjaClaro" type="radio" name="fondo" value="4">
                         </li>
                         <li>
-                            <input id="colorAmarillo" type="radio" name="fondo" value="colorAmarillo">
+                            <input id="colorAmarillo" type="radio" name="fondo" value="5">
                         </li>
                     </ul>
 
@@ -285,7 +290,7 @@
             </form>
 
         </section>
-        <a href="#inicio" class = "arriba"></a>
+        <a href="#inicio" class="arriba"></a>
     </main>
 
 
@@ -372,6 +377,8 @@
         </div>
 
     </footer>
+
+    <script src="js/personalizacion.js"></script>
 </body>
 
 </html>

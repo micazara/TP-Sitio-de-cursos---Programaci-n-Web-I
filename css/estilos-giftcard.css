@@ -12,41 +12,57 @@ COLOR TEXTO:#1D438A/
 .caja--tarjeta {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(216,208,239,1) 43%, rgba(206,199,236,1) 65%, rgba(176,174,232,1) 92%, rgba(176,174,232,1) 100%);
+    background: linear-gradient(to bottom, rgba(235, 233, 249, 1) 0%, rgba(216, 208, 239, 1) 43%, rgba(206, 199, 236, 1) 65%, rgba(176, 174, 232, 1) 92%, rgba(176, 174, 232, 1) 100%);
 }
 
-.cajauno--tarjeta{
+.cajauno--tarjeta {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-items:center;
+    justify-items: center;
     align-items: stretch;
-    
 }
-.cajauno--tarjeta img{
-    border-radius: 10px;
-    box-shadow: -11px 15px 14px -2px rgba(14,6,48,0.56);
-    margin: auto;
-    margin-top: 150px;
+
+.vista-previa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6%;
+    margin-left: 10%;
+    position: relative;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    box-shadow: -7px 5px 30px 0px rgba(61, 8, 61, 1);
+    background-color: aliceblue;
 
 }
-.cajauno--tarjeta--precio{
+.textoPreedefinido{
+    font-size: small;
+}
+
+
+
+.cajauno--tarjeta--precio {
     position: absolute;
-    padding: 15px;
-    margin-top: 150px;
-    margin-left: 420px;
+    margin-left: 37%;
+    margin-top: 3%;
     background-color: #021009;
     color: #11ad62;
+    padding: 2%;
     border-radius: 10px 0 10px 0;
 }
-.cajauno--tarjeta--texto{
-text-align: center;
-justify-content: center;
-margin-bottom: 350px;
+
+.cajauno--tarjeta--texto {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 350px;
 }
-h1{
+
+h1 {
     font-size: xx-large;
 }
 
@@ -62,7 +78,7 @@ h1{
 }
 
 .nombre-destinatario {
-    text-align:left;
+    text-align: left;
     color: #1D438A;
     font-family: inherit;
     font-size: 100%;
@@ -98,6 +114,50 @@ h1{
     margin-right: 62px;
 }
 
+/*CLASES COLORES DE TEXTO PARA JS*/
+.color_elegido1 {
+    color: #11ad62;
+}
+
+.color_elegido2 {
+
+    color: #58d38c;
+}
+
+.color_elegido3 {
+    color: orangered;
+}
+
+.color_elegido4 {
+    color: orange;
+}
+
+.color_elegido5 {
+    color: #ecec41;
+}
+
+/*CLASES COLORES DE FONDO PARA JS*/
+.fondo1 {
+    background-image: url(../img/giftCardPage/colorVerOscuro.png);
+}
+
+.fondo2 {
+    background-image: url(../img/giftCardPage/colorVerClaro.png);
+}
+
+.fondo3 {
+    background-image: url(../img/giftCardPage/colorNarOscuro.png);
+}
+
+.fondo4 {
+    background-image: url(../img/giftCardPage/colorNarClaro.png);
+}
+
+.fondo5 {
+    background-image: url(../img/giftCardPage/colorAma.png);
+}
+
+
 .elementos--fuente {
     display: flex;
     flex-direction: row;
@@ -113,6 +173,22 @@ h1{
 
 .elementos--fuente input {
     margin-right: 14px;
+}
+/*CLASES TAMAÑO FUENTE PARA JS*/
+.tamaño_fuente1{
+    font-size: 20px;
+}
+.tamaño_fuente2{
+    font-size: 28px;
+}
+.tamaño_fuente3{
+    font-size: 32px;
+}
+.tamaño_fuente4{
+    font-size: 48px;
+}
+.tamaño_fuente5{
+    font-size: 60px;
 }
 
 .subtitulo {
