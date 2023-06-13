@@ -10,14 +10,16 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/estilos-index.css">
     <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
     <script src="js/contador.js"></script>
 </head>
 
 <body onload="setValorPagina()">
 
-    <header id="inicio">
 
+
+    <header id="inicio">
         <div class="cajaUno">
             <!--Header del sitio con Logo, barra de buscador y un carrito con el contador de cursos obtenidos.-->
 
@@ -41,7 +43,7 @@
 
             <!--carrito-->
             <div id="chango">
-                <img src="img/chango.png" alt="changuito" width="40" height="40">
+                <a id="verCursos"><img src="img/chango.png" alt="changuito" width="40" height="40"></a>
 
                 <p id="numero-chango">0</p>
             </div>
@@ -77,6 +79,14 @@
 
     <main>
 
+        <div class="e-cursos-carrito" id="modal-cursos-carrito">
+            <div class="contenido-modal">
+                <span class="cerrar">X</span>
+                <p>Cursos obtenidos:</p>
+            </div>
+        </div>
+        <script src="js/modal.js"></script>
+
         <section>
             <!--carrousel...A FUTURO-->
             <img src="./img/carpiIndex/carrusel-uno.png" alt="curso" width="100%" height="600">
@@ -107,7 +117,8 @@
 
             <div class="tarjetita">
                 <img src="./img/carpiIndex/paso-tres.png" alt="paso 3">
-                <p>¡WELCOME! Estate atento a la fecha de inicio de tus clases y el horario,te enviaremos un recordatorio.Ahora sólo te queda relajarte y sumergirte en el mundo informático. </p>
+                <p>¡WELCOME! Estate atento a la fecha de inicio de tus clases y el horario,te enviaremos un
+                    recordatorio.Ahora sólo te queda relajarte y sumergirte en el mundo informático. </p>
             </div>
 
         </section>
@@ -195,7 +206,7 @@
                 </p>
 
                 <button onclick="agregarCurso()">
-                    <a >Comprar</a>
+                    <a>Comprar</a>
                 </button>
             </article>
 
@@ -219,7 +230,7 @@
             <img src="img/bitcoin.png" alt="bitcoin" width="100" height="100">
         </section>
 
-        <a href="#inicio" class = "arriba"></a>
+        <a href="#inicio" class="arriba"></a>
     </main>
 
     <footer>
@@ -288,7 +299,7 @@
 
             <ul class="redesSociales">
                 <li>
-                    <a><img src="img/fb.png" id="redes-logos" alt="facebook" ></a>
+                    <a><img src="img/fb.png" id="redes-logos" alt="facebook"></a>
                 </li>
 
                 <li>
@@ -296,7 +307,7 @@
                 </li>
 
                 <li>
-                    <a><img src="img/tw.png" id="redes-logos" alt="twitter" ></a>
+                    <a><img src="img/tw.png" id="redes-logos" alt="twitter"></a>
                 </li>
             </ul>
 
