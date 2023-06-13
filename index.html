@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./css/estilos-index.css">
     <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <script src="js/cargarChango.js"></script>
     <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
-    <script src="js/contador.js"></script>
+ 
 </head>
 
 <body onload="setValorPagina()">
@@ -143,7 +144,7 @@
                     60 hrs
                 </p>
 
-                <button onclick="agregarCurso()">
+                <button class="comprar" data-value="java">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -163,7 +164,7 @@
                     60 hrs
                 </p>
 
-                <button onclick="agregarCurso()">
+                <button class="comprar">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -183,7 +184,7 @@
                     60 hrs
                 </p>
 
-                <button onclick="agregarCurso()">
+                <button class="comprar">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -210,7 +211,7 @@
                 </button>
             </article>
 
-
+            <script src="js/contador.js"></script>
         </section>
 
         <!--medios de pago-->
@@ -314,6 +315,7 @@
         </div>
 
     </footer>
+ 
 </body>
 
 </html>

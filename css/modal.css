@@ -11,6 +11,7 @@
   }
 
   .contenido-modal{
+    text-align: center;
     background-color: #fefefe;
     margin: 15% auto; /* Centrar verticalmente el contenido */
     padding: 20px;
