@@ -1,33 +1,43 @@
 .e-cursos-carrito {
-    display: none; /* Ocultar la modal por defecto */
-    position: fixed; /* Posición fija para que se mantenga en la pantalla */
-    z-index: 10000000; /* Z-index para colocarlo por encima de otros elementos */
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto; /* Permitir el desplazamiento si el contenido es demasiado grande */
-    
-  }
+  display: none;
+  /* Ocultar la modal por defecto */
+  position: fixed;
+  /* Posición fija para que se mantenga en la pantalla */
+  z-index: 10000000;
+  /* Z-index para colocarlo por encima de otros elementos */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  /* Permitir el desplazamiento si el contenido es demasiado grande */
 
-  .contenido-modal{
-    text-align: center;
-    background-color: #fefefe;
-    margin: 15% auto; /* Centrar verticalmente el contenido */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
+}
 
-  .cerrar {
-    color: #aaa;
-    float: right;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .cerrar:hover {
-    color: rgb(59, 55, 55);
-    text-decoration: none;
-    cursor: url(../img/cursor-a.png);
-  }
+.contenido-modal {
+  text-align: center;
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* Centrar verticalmente el contenido */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.contenido-modal ul {
+  list-style: none;
+  text-align: center;
+}
+
+.cerrar {
+  color: #aaa;
+  float: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cerrar:hover {
+  color: rgb(59, 55, 55);
+  text-decoration: none;
+  cursor: url(../img/cursor-a.png);
+}

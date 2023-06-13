@@ -1,8 +1,8 @@
 function cargarValor() {
-    if (localStorage.getItem('valor') == null) {
+    if (sessionStorage.getItem('valor') == null) {
         return 0;
     } else {
-        return localStorage.getItem('valor');
+        return sessionStorage.getItem('valor');
     }
 }
 

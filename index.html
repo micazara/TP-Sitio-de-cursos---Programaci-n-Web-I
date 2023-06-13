@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/modal.css">
     <script src="js/cargarChango.js"></script>
     <script src="https://kit.fontawesome.com/bbc4ebec2d.js" crossorigin="anonymous"></script>
- 
+
 </head>
 
 <body onload="setValorPagina()">
@@ -84,6 +84,8 @@
             <div class="contenido-modal">
                 <span class="cerrar">X</span>
                 <p>Cursos obtenidos:</p>
+                <ul id="listaCursos">
+                </ul>
             </div>
         </div>
         <script src="js/modal.js"></script>
@@ -144,7 +146,7 @@
                     60 hrs
                 </p>
 
-                <button class="comprar" data-value="java">
+                <button class="comprar" data-value="Introducción a java">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -164,7 +166,7 @@
                     60 hrs
                 </p>
 
-                <button class="comprar">
+                <button class="comprar" data-value="Introducción a HTML">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -184,7 +186,7 @@
                     60 hrs
                 </p>
 
-                <button class="comprar">
+                <button class="comprar" data-value="Introducción a CSS">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -206,7 +208,7 @@
                     60 hrs
                 </p>
 
-                <button onclick="agregarCurso()">
+                <button class="comprar" data-value="Introducción a Python">
                     <a>Comprar</a>
                 </button>
             </article>
@@ -315,7 +317,7 @@
         </div>
 
     </footer>
- 
+
 </body>
 
 </html>

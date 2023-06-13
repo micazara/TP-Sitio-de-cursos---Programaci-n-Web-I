@@ -1,17 +1,24 @@
 
 function cargarValor() {
-    if (localStorage.getItem('valor') == null) {
+    if (sessionStorage.getItem('valor') == null) {
         return 0;
     } else {
-        return localStorage.getItem('valor');
+        return sessionStorage.getItem('valor');
     }
 }
 
 function agregarCurso() {
     let numero = cargarValor();
     numero++;
-    localStorage.setItem('valor', numero);
+    sessionStorage.setItem('valor', numero);
     document.getElementById('numero-chango').innerHTML = numero;
+
+}
+
+function agregarAlModal(curso) {
+let nuevoLi = document.createElement('li');
+  nuevoLi.textContent = curso;
+  document.getElementById('listaCursos').appendChild(nuevoLi);
 
 }
 
@@ -20,10 +27,12 @@ var cursos = [];
 
 for (var i = 0; i < botones.length; i++) {
     botones[i].addEventListener("click", function () {
-        agregarCurso()
-        var curso = button.getAttribute("data-value"); // Obtengo el valor del atributo "data-value"
+        agregarCurso();
+        let curso = this.getAttribute("data-value"); // Obtengo el valor del atributo "data-value"
+        agregarAlModal(curso);
         cursos.push(curso); // Agregar el valor al array
         localStorage.setItem('cursos-comprados', cursos);
+        
     });
 }
 
