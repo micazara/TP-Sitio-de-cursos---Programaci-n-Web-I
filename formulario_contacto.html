@@ -73,57 +73,47 @@
 
     </header>
 
-
-
-
     <main>
         <section class="contenedor">
 
             <section class="caja1">
 
                 <section>
-                    <!--nombre y apellido (obligatorio)-->
-                    <form action="#" method="post" class="campos">
+
+                    <form action="#" method="post" class="campos" name="form">
+
                         <div class="para_alinear">
+                            <!--nombre y apellido (obligatorio)-->
                             <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
                             <input id="nombre_y_apellido" type="text" required name="nombreyapellido" class="input">
                         </div>
-                    </form>
-                </section>
 
-                <section>
-
-                    <!--mail (obligatorio)-->
-                    <form action="#" method="post" class="campos">
                         <div class="para_alinear">
+                            <!--mail (obligatorio)-->
                             <label for="mail">Ingrese su e-mail</label>
                             <input type="email" required name="mail" id="mail" class="input">
                         </div>
-                    </form>
-                </section>
 
-                <section>
-                    <!--tel (opcional)-->
-                    <form action="#" method="post" class="campos">
                         <div class="para_alinear">
+                            <!--tel (opcional)-->
+            
                             <label for="telefono">Ingrese su número telefónico</label>
                             <input type="tel" name="telefono" id="telefono" class="input">
                         </div>
-                    </form>
 
+                        <div class="para_alinear">
+                            <!--consulta (obligatorio)-->
+                            <p class="campos">Ingrese su consulta</p>
+                            <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"></textarea>
+
+                        </div>
+
+                        <input id="boton-enviar" type="submit" value="Enviar">
+                    </form>
+                    
+                    <div id="mensaje" class="error"></div>
                 </section>
 
-
-                <section>
-                    <!--consulta (obligatorio)-->
-                    <form action="#" method="post">
-
-                        <p class="campos">Ingrese su consulta</p>
-                        <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"></textarea>
-
-                    </form>
-                </section>
-                <input type="submit" value="Enviar" id="boton-enviar">
 
             </section>
 
@@ -259,7 +249,7 @@
         </div>
 
     </footer>
-
+    <script src="js/formulario.js"></script>
 </body>
 
 </html>

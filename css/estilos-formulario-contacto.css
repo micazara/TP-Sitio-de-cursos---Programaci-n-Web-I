@@ -35,6 +35,13 @@
 
 }
 
+#boton-enviar a :hover{
+background-color: rgb(114, 229, 174);
+transition: 2s;
+}
+
+
+
 .caja2 {
     display: flex;
     flex-direction: column;
