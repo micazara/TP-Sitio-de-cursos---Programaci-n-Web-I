@@ -1,8 +1,9 @@
-let form = document.querySelector("form");
+let form = document.querySelector("formulario-consulta");
+let botonEnviar=document.querySelector("#boton-enviar-form");
 let mensaje = document.querySelector("#mensaje")
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault()
+botonEnviar.addEventListener("click", function(event){
+    event.preventDefault()
     validar()
 })
 
@@ -33,5 +34,6 @@ function validar() {
         mensaje.innerHTML = mensajesError;
     } else {
         form.submit();
+
     }
 }

@@ -88,24 +88,24 @@ button :hover {
 }
 
 .unidades-curso div {
-   margin: 0%;
-   width: 100%;
+    margin: 0%;
+    width: 100%;
 }
 
 
-#acordeon li{
+#acordeon li {
     padding: 0;
     margin: 0;
 }
 
-#acordeon div{
+#acordeon div {
     padding: 10px;
     margin: 0;
 }
 
-.acordeon-titulo h4{
-margin: 0;
-padding: 0;
+.acordeon-titulo h4 {
+    margin: 0;
+    padding: 0;
 }
 
 .acordeon-titulo {
@@ -135,8 +135,22 @@ padding: 0;
 
 .acordeon-contenido {
     display: none;
-  }
-  
-  .acordeon-abierto .acordeon-contenido {
+}
+
+.acordeon-abierto .acordeon-contenido {
     display: block;
-  }
+}
+
+/*TABLETS*/
+@media screen and (min-width: 48em) {
+    #cursos-relacionados {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .caja-curso{
+        margin: 2%;
+
+    }
+}

@@ -76,7 +76,7 @@ footer div {
 
 .tarjetita_cursos button :hover {
     color: rgb(182, 224, 205);
-    transition: 0.5s ;
+    transition: 0.5s;
 }
 
 
@@ -120,4 +120,56 @@ footer div {
     left: 125px;
     border-radius: 30px;
     margin-bottom: -42px;
+}
+
+/*MEDIA QUERIES */
+
+/*TABLET*/
+@media screen and (min-width: 48em) {
+    .paraAcomodarlos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tarjetita_cursos {
+        margin: 2%;
+    }
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) {
+    body {
+        width: fit-content;
+
+    }
+
+    .paraAcomodarlos {
+        flex-wrap: wrap;
+    }
+
+
+
+    /*.fotitosmp{
+
+        width: 20em;
+        height: 20em;
+        border-radius: 50px;
+    }*/
+
+
+
+    .tarjetitas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tarjetita {
+        margin: 2%;
+    }
+
+    .tarjetita_cursos {
+        margin: 2%;
+    }
+
+
 }
