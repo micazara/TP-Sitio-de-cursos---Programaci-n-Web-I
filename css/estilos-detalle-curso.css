@@ -92,12 +92,23 @@ button :hover {
    width: 100%;
 }
 
-.titulo-unidad h4{
+
+#acordeon li{
+    padding: 0;
+    margin: 0;
+}
+
+#acordeon div{
+    padding: 10px;
+    margin: 0;
+}
+
+.acordeon-titulo h4{
 margin: 0;
 padding: 0;
 }
 
-.titulo-unidad {
+.acordeon-titulo {
     display: block;
     background-color: aliceblue;
     padding: 10px;
@@ -107,6 +118,7 @@ padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px rgb(216, 214, 214) solid;
 }
 
 
@@ -120,3 +132,11 @@ padding: 0;
 .unidades-curso ul {
     margin: 0;
 }
+
+.acordeon-contenido {
+    display: none;
+  }
+  
+  .acordeon-abierto .acordeon-contenido {
+    display: block;
+  }
