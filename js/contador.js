@@ -23,10 +23,18 @@ function agregarAlModal(curso) {
 }
 
 let botones = document.querySelectorAll(".comprar");
-var cursos = [];
+let cursos = [];
+
+function actualizarArray() {
+    var cursosObtenidos = JSON.parse(sessionStorage.getItem('cursos-comprados'));
+    if (cursosObtenidos != null) {
+        cursos = cursosObtenidos;
+    } 
+}
 
 for (var i = 0; i < botones.length; i++) {
     botones[i].addEventListener("click", function () {
+        actualizarArray();
         agregarCurso();
         let curso = this.getAttribute("data-value"); // Obtengo el valor del atributo "data-value"
         agregarAlModal(curso);
