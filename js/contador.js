@@ -16,9 +16,9 @@ function agregarCurso() {
 }
 
 function agregarAlModal(curso) {
-let nuevoLi = document.createElement('li');
-  nuevoLi.textContent = curso;
-  document.getElementById('listaCursos').appendChild(nuevoLi);
+    let nuevoLi = document.createElement('li');
+    nuevoLi.textContent = curso;
+    document.getElementById('listaCursos').appendChild(nuevoLi);
 
 }
 
@@ -31,8 +31,8 @@ for (var i = 0; i < botones.length; i++) {
         let curso = this.getAttribute("data-value"); // Obtengo el valor del atributo "data-value"
         agregarAlModal(curso);
         cursos.push(curso); // Agregar el valor al array
-        localStorage.setItem('cursos-comprados', cursos);
-        
+        sessionStorage.setItem('cursos-comprados', JSON.stringify(cursos));
+
     });
 }
 

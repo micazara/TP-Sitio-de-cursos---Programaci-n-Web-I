@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/estilos-giftcard.css">
     <link rel="stylesheet" href="./css/input.css">
-    <script src="js/contador.js"></script>
+    <link rel="stylesheet" href="./css/modal.css">
+    <script src="js/cargarChango.js"></script>
 </head>
 
 <body onload="setValorPagina()">
@@ -42,7 +43,7 @@
 
             <!--carrito-->
             <div id="chango">
-                <img src="img/chango.png" alt="changuito" width="40" height="40">
+                <a id="verCursos"><img src="img/chango.png" alt="changuito" width="40" height="40"></a>
 
                 <p id="numero-chango">0</p>
             </div>
@@ -76,6 +77,15 @@
 
     <main class="caja--tarjeta">
 
+        <div class="e-cursos-carrito" id="modal-cursos-carrito">
+            <div class="contenido-modal">
+                <span class="cerrar">X</span>
+                <p id="titulo-modal">Cursos obtenidos:</p>
+                <ul id="listaCursos">
+                </ul>
+            </div>
+        </div>
+        <script src="js/modal.js"></script>
 
         <!--tarjeta-->
         <section class="cajauno--tarjeta">

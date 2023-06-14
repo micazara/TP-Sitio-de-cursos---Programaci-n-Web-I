@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilos-detalle-curso.css">
     <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <title>Introducción a CSS</title>
-    <script src="js/contador.js"></script>
+    <script src="js/cargarChango.js"></script>
 </head>
 
 <body onload="setValorPagina()">
@@ -41,7 +42,7 @@
 
             <!--carrito-->
             <div id="chango">
-                <img src="img/chango.png" alt="changuito" width="40" height="40">
+                <a id="verCursos"><img src="img/chango.png" alt="changuito" width="40" height="40"></a>
 
                 <p id="numero-chango">0</p>
             </div>
@@ -77,6 +78,16 @@
 
     <main>
 
+        <div class="e-cursos-carrito" id="modal-cursos-carrito">
+            <div class="contenido-modal">
+                <span class="cerrar">X</span>
+                <p id="titulo-modal">Cursos obtenidos:</p>
+                <ul id="listaCursos">
+                </ul>
+            </div>
+        </div>
+        <script src="js/modal.js"></script>
+
         <section id="detalle-curso">
             <div>
                 <img src="img/carpiIndex/logoCSS.png" id="foto-curso" alt="foto-curso" width="300">
@@ -92,9 +103,10 @@
                             provident incidunt laudantium perferendis ut culpa. Quod, sint iste.</li>
                         <li>Requisitos previos: ninguno.</li>
                     </ul>
-                    <button onclick="agregarCurso()"><a href="inscripcion-css.html">Inscribirse</a></button>
+                    <button class="comprar" data-value="Introducción a CSS"><a
+                        href="inscripcion-css.html">Inscribirse</a></button>
                 </article>
-                
+                <script src="js/contador.js"></script>
 
                 <h2>Detalles del curso</h2>
                 <article class="unidades-curso">

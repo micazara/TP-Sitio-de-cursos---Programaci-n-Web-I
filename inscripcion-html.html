@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/estilos-inscripcion.css">
     <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <title>Inscribite</title>
     <link rel="icon" href="img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
-    <script src="js/contador.js"></script>
+    <script src="js/cargarChango.js"></script>
 </head>
 
 <body onload="setValorPagina()">
@@ -41,7 +42,8 @@
 
             <!--carrito-->
             <div id="chango">
-                <img src="img/chango.png" alt="changuito" width="40" height="40">
+                <a id="verCursos"><img src="img/chango.png" alt="changuito" width="40" height="40"></a>
+
 
                 <p id="numero-chango">0</p>
             </div>
@@ -78,6 +80,15 @@
 
 
     <main>
+        <div class="e-cursos-carrito" id="modal-cursos-carrito">
+            <div class="contenido-modal">
+                <span class="cerrar">X</span>
+                <p id="titulo-modal">Cursos obtenidos:</p>
+                <ul id="listaCursos">
+                </ul>
+            </div>
+        </div>
+        <script src="js/modal.js"></script>
 
         <section class="bloque-inscripcion">
             <h2>Introduccion a HTML</h2>
@@ -92,8 +103,8 @@
                             <input id="f1campo2" class="campo" type="text" placeholder="ingrese su apellido" required>
                             <input id="f1campo3" class="campo" type="number" placeholder="ingrese su dni"
                                 pattern="[0-9]{8}" required>
-                            <a id="borrarFila1" class="boton-borrar" href=""><img src="img/signo-menos.png"
-                                    width="20px" height="20px" alt=""></a>
+                            <a id="borrarFila1" class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px"
+                                    height="20px" alt=""></a>
                         </div>
 
 
