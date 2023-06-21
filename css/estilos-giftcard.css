@@ -305,6 +305,10 @@ h1 {
     .caja--tarjeta {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
     }
     .vista-previa{
         height: 5.5em;
@@ -315,14 +319,26 @@ h1 {
 
 /*CELULAR*/
 @media screen and (min-width: 8em) and (max-width:48em) {
+
+    h1{
+        font-size: 1em;
+    }
     .caja--tarjeta {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
     }
 
     .vista-previa{
         height: 5em;
         width: 5em;
+    }
+    
+    .subtitulo {
+        font-size: 0.8em;
     }
 
 
