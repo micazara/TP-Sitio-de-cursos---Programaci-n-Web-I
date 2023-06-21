@@ -13,7 +13,7 @@ let tamañoFuente = document.getElementsByName("tamaño_fuente");
 let montoIngresado = document.querySelector("#monto");
 let monto = document.querySelector(".cajauno--tarjeta--precio");
 //personalizacion posicion ln 219 html
-let posicion = document.getElementsByName("posicion");
+let posiciones = document.getElementsByName("posicion");
 //vista previa ln 82
 let vistaPrevia = document.querySelector(".vista-previa");
 
@@ -72,4 +72,17 @@ colores.forEach((op) => {
     );
     vistaPrevia.classList.add(`color_elegido${op.value}`);
   });
+});
+
+//CAMBIAR POSICION
+
+posiciones.forEach((pos)=>{
+  pos.addEventListener("click",()=>{
+    monto.classList.remove(
+      "posicion1",
+      "posicion2",
+      "posicion3"
+    );
+    monto.classList.add(`posicion${pos.value}`);
+  })
 });

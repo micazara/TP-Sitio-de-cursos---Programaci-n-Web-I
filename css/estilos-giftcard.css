@@ -48,8 +48,6 @@ COLOR TEXTO:#1D438A/
 
 .cajauno--tarjeta--precio {
     position: absolute;
-    margin-left: 37%;
-    margin-top: 3%;
     background-color: #021009;
     color: #11ad62;
     padding: 2%;
@@ -57,6 +55,23 @@ COLOR TEXTO:#1D438A/
     width: 3.50em;
     overflow: hidden;
     font-size: small;
+}
+
+/*CLASES POSICIONES DE TEXTO PARA JS*/
+
+.posicion1{
+    bottom: 0;
+    right: 0;
+}
+
+.posicion2{
+    top: 0;
+    right: 0;
+}
+
+.posicion3{
+    top: 0;
+    left: 0;
 }
 
 .cajauno--tarjeta--texto {
