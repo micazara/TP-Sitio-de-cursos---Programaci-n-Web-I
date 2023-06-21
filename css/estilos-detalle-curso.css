@@ -142,15 +142,86 @@ button :hover {
 }
 
 /*TABLETS*/
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 48em) and (max-width:64em) {
     #cursos-relacionados {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-    
-    .caja-curso{
+
+    .caja-curso {
         margin: 2%;
 
+    }
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) and (max-width:48em) {
+
+    #detalle-curso {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #cursos-relacionados {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .caja-curso {
+        margin: 2%;
+
+    }
+
+    h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    h3 {
+        font-size: 0.9em;
+    }
+
+    footer li {
+        font-size: 0.7em;
+    }
+
+    #logo-footer {
+        width: 50px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 0.9em;
+        text-align: center;
+    }
+
+    #docente img {
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+
+    #docente {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #b3b0c4;
+        padding: 20px 70px;
+    }
+
+    #foto-curso {
+        display: block;
+        border-radius: 30px;
+        margin: auto;
+        width: 75%;
+    }
+
+    #detalle-curso div{
+        margin: 2%;
+        margin-top: 5%;
     }
 }
