@@ -1,0 +1,68 @@
+#modal-inscriptos {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contenido-modal-inscripcion {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.contenido-modal-inscripcion ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenido-modal-inscripcion li{
+    margin-bottom: 3px;
+}
+
+.contenido-modal-inscripcion button {
+    margin-top: 5px;
+    background-color: #11ad62;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+.contenido-modal-inscripcion button a {
+    text-decoration: none;
+    color: white;
+}
+
+.contenido-modal-inscripcion button :hover {
+    color: rgb(182, 224, 205);
+    transition: 0.5s;
+}
+
+#cerrar-m{
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#cerrar-m:hover{
+    color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

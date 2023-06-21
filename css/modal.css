@@ -1,4 +1,4 @@
-.e-cursos-carrito {
+.e-cursos-carrito{
   display: none;
   /* Ocultar la modal por defecto */
   position: fixed;
@@ -11,19 +11,19 @@
   height: 100%;
   align-items: center;
   overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
   /* Permitir el desplazamiento si el contenido es demasiado grande */
-
 }
 
 .contenido-modal {
-  text-align: center;
-  background-color: #fefefe;
-  margin: 15% auto;
-  /* Centrar verticalmente el contenido */
+  background-color: #fff;
+  margin: 20% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 50%;
-  align-items: center;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  position: relative;
 }
 
 .contenido-modal ul {
@@ -46,6 +46,6 @@
   cursor: url(../img/cursor-a.png);
 }
 
-#titulo-modal{
+.titulo-modal{
   font-size: x-large;
 }
