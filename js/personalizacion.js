@@ -16,6 +16,8 @@ let monto = document.querySelector(".cajauno--tarjeta--precio");
 let posiciones = document.getElementsByName("posicion");
 //vista previa ln 82
 let vistaPrevia = document.querySelector(".vista-previa");
+//boton
+let botonEnviar= document.querySelector(".botonEnviar");
 
 //FUNCIONES
 
@@ -85,4 +87,10 @@ posiciones.forEach((pos)=>{
     );
     monto.classList.add(`posicion${pos.value}`);
   })
+});
+
+
+botonEnviar.addEventListener("click",(e)=> {
+
+  e.preventDefault();
 });

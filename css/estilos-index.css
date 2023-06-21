@@ -103,7 +103,7 @@ footer div {
     border-radius: 50px;
     padding: 10px;
     text-align: center;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
     line-height: 50px;
     opacity: 60%;
 }
