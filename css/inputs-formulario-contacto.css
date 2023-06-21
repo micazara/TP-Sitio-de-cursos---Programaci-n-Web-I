@@ -12,7 +12,7 @@
     background-position: 10px center;
     background-size: 12px;
     padding: 5px 11px 3px 29px;
-   
+
 }
 
 #telefono {
@@ -21,4 +21,29 @@
     background-position: 10px center;
     background-size: 12px;
     padding: 5px 11px 3px 29px;
+}
+
+/*RESPONSIVE*/
+/*MEDIA QUERIES */
+
+/*TABLET*/
+@media screen and (min-width: 48em) and (max-width:64em) {
+
+    #nombre_y_apellido ,
+    #mail ,
+    #telefono{
+        padding: 0;
+        background-size: 6px;
+}
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) and (max-width:48em) {
+    #nombre_y_apellido ,
+    #mail ,
+    #telefono{
+        padding: 0;
+        background-size: 6px;
+}
+
 }
