@@ -52,6 +52,7 @@ COLOR TEXTO:#1D438A/
     bottom: 0;
     margin-left: 25%;
     margin-bottom: 15%;
+    box-shadow: #1D438A -5px 5px, rgba(29, 67, 138, 0.822) -10px 10px, rgba(29, 67, 138, 0.712) -15px 15px, rgba(29, 67, 138, 0.511) -20px 20px, rgba(30, 75, 159, 0.416) -25px 25px;
 }
 
 
