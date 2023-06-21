@@ -7,7 +7,7 @@ verde claro:#bbfcdb
 verde medio claro:#58d38c
 blanco:#fefefe
 COLOR FONDO:#EDEEFF
-COLOR TEXTO:#1D438A/
+COLOR AZUl:#1D438A/
 
 /*selector universal*/
 body {
@@ -35,6 +35,7 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .cajaUno img {
@@ -46,19 +47,23 @@ header {
     align-items: center;
 }
 
-h1{
-font-size: 1.6em;
+h1 {
+    font-size: 1.6em;
 }
-h2{
+
+h2 {
     font-size: 1.5em;
 }
-h3{
+
+h3 {
     font-size: 1.4em;
 }
-h4{
-    font-size:1.3em;
+
+h4 {
+    font-size: 1.3em;
 }
-p{
+
+p {
     font-size: 1em;
 }
 
@@ -67,6 +72,7 @@ p{
     padding: 5px;
     border-radius: 30px;
     border: none;
+    box-shadow: rgba(143, 92, 225, 0.4) 0px 5px, rgba(132, 80, 216, 0.317) 0px 10px, rgba(127, 78, 213, 0.153) 0px 15px;
 }
 
 #boton-buscar {
@@ -107,6 +113,7 @@ p{
     justify-content: center;
     animation: barra-color 5s infinite;
     animation-direction: alternate;
+
 
 }
 
@@ -233,7 +240,7 @@ footer div h3 {
     }
 }
 
-.arriba{
+.arriba {
     display: block;
     width: 50px;
     height: 50px;
@@ -252,10 +259,7 @@ footer div h3 {
 
 }
 
-.arriba:hover{
+.arriba:hover {
     background-color: #58d38c;
     transition: 1s;
 }
-
-
-
