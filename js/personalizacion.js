@@ -1,6 +1,8 @@
 //VARIABLES
 
+//personalización nombre destinatario
 let nombreDestinatario = document.querySelector("#nombreDestinatario");
+let texto = document.querySelector("#vista-previa-texto");
 //personalización color texto ln 123 html
 let colores = document.getElementsByName("color_elegido");
 //personalización fondo ln 260 de html
@@ -14,17 +16,19 @@ let monto = document.querySelector(".cajauno--tarjeta--precio");
 let posicion = document.getElementsByName("posicion");
 //vista previa ln 82
 let vistaPrevia = document.querySelector(".vista-previa");
-let texto = document.querySelector("#vista-previa-texto");
 
 //FUNCIONES
 
 // ESCRIBIR EN GIFTCARD
+
+//insertAdjacentHTML().
 nombreDestinatario.addEventListener("keyup", () => {
-  texto.innerHTML = nombreDestinatario.value;
+  texto.innerHTML = `Giftcard para ${nombreDestinatario.value}`;
 });
+
 //CAMBIAR MONTO
 montoIngresado.addEventListener("keyup", () => {
-  monto.innerHTML = montoIngresado.value;
+  monto.innerHTML = `$ ${montoIngresado.value}`;
 });
 
 // CAMBIAR COLOR FONDO

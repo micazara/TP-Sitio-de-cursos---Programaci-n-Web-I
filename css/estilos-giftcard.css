@@ -40,8 +40,8 @@ COLOR TEXTO:#1D438A/
     background-color: aliceblue;
 
 }
-.textoPreedefinido{
-    font-size: small;
+.textoExistente{
+    font-size: medium;
 }
 
 
@@ -54,6 +54,9 @@ COLOR TEXTO:#1D438A/
     color: #11ad62;
     padding: 2%;
     border-radius: 10px 0 10px 0;
+    width: 3.50em;
+    overflow: hidden;
+    font-size: small;
 }
 
 .cajauno--tarjeta--texto {
@@ -73,7 +76,6 @@ h1 {
     justify-content: start;
     padding: 0%;
     margin: 0%;
-
 
 }
 
