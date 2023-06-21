@@ -23,6 +23,7 @@ COLOR TEXTO:#1D438A/
     flex-direction: column;
     justify-items: center;
     align-items: stretch;
+    position: relative;
 }
 
 .vista-previa {
@@ -40,10 +41,18 @@ COLOR TEXTO:#1D438A/
     background-color: aliceblue;
 
 }
-.textoExistente{
+
+.textoExistente {
     font-size: medium;
 }
 
+.carpiGift {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25%;
+    margin-bottom: 15%;
+}
 
 
 .cajauno--tarjeta--precio {
@@ -59,17 +68,17 @@ COLOR TEXTO:#1D438A/
 
 /*CLASES POSICIONES DE TEXTO PARA JS*/
 
-.posicion1{
+.posicion1 {
     bottom: 0;
     right: 0;
 }
 
-.posicion2{
+.posicion2 {
     top: 0;
     right: 0;
 }
 
-.posicion3{
+.posicion3 {
     top: 0;
     left: 0;
 }
@@ -191,20 +200,25 @@ h1 {
 .elementos--fuente input {
     margin-right: 14px;
 }
+
 /*CLASES TAMAÑO FUENTE PARA JS*/
-.tamaño_fuente1{
+.tamaño_fuente1 {
     font-size: 20px;
 }
-.tamaño_fuente2{
+
+.tamaño_fuente2 {
     font-size: 28px;
 }
-.tamaño_fuente3{
+
+.tamaño_fuente3 {
     font-size: 32px;
 }
-.tamaño_fuente4{
+
+.tamaño_fuente4 {
     font-size: 48px;
 }
-.tamaño_fuente5{
+
+.tamaño_fuente5 {
     font-size: 60px;
 }
 
@@ -284,6 +298,4 @@ h1 {
 
 /*RESPONSIVE*/
 
-@media screen and (max-widht:480px) {
-    
-}
+@media screen and (max-widht:480px) {}
