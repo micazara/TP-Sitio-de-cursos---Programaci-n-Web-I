@@ -81,6 +81,7 @@ p {
     background-color: #58d38c;
     padding: 5px;
     border-radius: 30px;
+    box-shadow: rgb(60, 156, 100) 0px 5px, rgba(88, 211, 139, 0.806) 0px 10px, #58d38ba7 0px 15px;
 }
 
 #numero-chango {
@@ -270,11 +271,19 @@ footer div h3 {
 
 /*TABLET*/
 @media screen and (min-width: 48em) and (max-width:64em){
-    
+    p {
+        font-size: 0.9em;
+    }
 }
 
 /*CELULAR*/
 @media screen and (min-width: 8em) and (max-width:48em) {
+
+    .cajaDos {
+        flex-direction: column;
+        font-size: small;
+        align-items: center;
+    }
 
     #buscador{
         width: 60%;
