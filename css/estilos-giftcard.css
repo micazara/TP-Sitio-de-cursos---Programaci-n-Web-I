@@ -298,5 +298,33 @@ h1 {
 }
 
 /*RESPONSIVE*/
+/*MEDIA QUERIES */
 
-@media screen and (max-widht:480px) {}
+/*TABLET*/
+@media screen and (min-width: 48em) and (max-width:64em) {
+    .caja--tarjeta {
+        display: flex;
+        flex-direction: column;
+    }
+    .vista-previa{
+        height: 5.5em;
+        width: 5.5em;
+    }
+
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) and (max-width:48em) {
+    .caja--tarjeta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vista-previa{
+        height: 5em;
+        width: 5em;
+    }
+
+
+
+}
