@@ -263,3 +263,31 @@ footer div h3 {
     background-color: #58d38c;
     transition: 1s;
 }
+
+/*MEDIA QUERIES */
+
+/*TABLET*/
+@media screen and (min-width: 48em) and (max-width:64em){
+    
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) and (max-width:48em) {
+
+    #buscador{
+        width: 60%;
+    }
+    body {
+        width: fit-content;
+
+    }
+
+    #chango{
+        display: none;
+    }
+    
+    #numero-chango{
+        display: none;
+    }
+
+}
