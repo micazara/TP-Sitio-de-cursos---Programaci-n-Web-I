@@ -35,9 +35,9 @@
 
 }
 
-#boton-enviar-form a :hover{
-background-color: rgb(114, 229, 174);
-transition: 2s;
+#boton-enviar-form a :hover {
+    background-color: rgb(114, 229, 174);
+    transition: 2s;
 }
 
 
@@ -77,7 +77,7 @@ transition: 2s;
     height: 55px;
 }
 
-.redes a :hover{
+.redes a :hover {
     width: 65px;
     height: 65px;
     transition: 0.5s ease-out;
@@ -95,7 +95,7 @@ transition: 2s;
     border: none;
     border-radius: 20px;
     background-color: white;
-    font-size:large;
+    font-size: large;
 }
 
 .para_alinear {
@@ -104,9 +104,10 @@ transition: 2s;
     justify-content: space-between;
 }
 
-.para_alinear label{
+.para_alinear label {
     font-size: large;
 }
+
 .caja3 {
     padding-top: 35px;
     text-align: center;
@@ -123,3 +124,80 @@ transition: 2s;
 
 /* MEDIA QUERIES*/
 
+/*RESPONSIVE*/
+/*MEDIA QUERIES */
+
+/*TABLET*/
+@media screen and (min-width: 48em) and (max-width:64em) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        padding: 0;
+        font-size: 0.9em;
+    }
+
+    #boton-enviar-form {
+        width: 20%;
+    }
+}
+
+/*CELULAR*/
+@media screen and (min-width: 8em) and (max-width:48em) {
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .input {
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+    .para_alinear label,
+    .campos {
+        font-size: 0.8em;
+        padding: 0;
+    }
+
+    #boton-enviar-form {
+        width: 20%;
+    }
+
+    #consulta.input {
+        width: 50%;
+        margin-top: 4%;
+
+    }
+
+    #img_contacto img {
+        width: 150px;
+    }
+
+    h3 {
+        font-size: 0.8em;
+    }
+
+    .datos-contacto {
+        font-size: 0.6em;
+    }
+
+    .redes li img {
+        width: 25px;
+        height: 25px;
+    }
+
+    #boton-enviar-form {
+        width: 10em;
+        height: 1em;
+        font-size: 0.5em;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
