@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/estilos-inscripcion.css">
     <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/modal-inscriptos.css">
     <title>Inscribite</title>
     <link rel="icon" href="img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
     <script src="js/cargarChango.js"></script>
@@ -88,45 +89,69 @@
         </div>
         <script src="js/modal.js"></script>
 
+        
+        <!-- MODAL SI SE CONFIRMO LA INSCRIPCION-->
+        <div class=".modal-inscripcion" id="modal-inscriptos">
+            <div class="contenido-modal-inscripcion">
+                <p class="titulo-modal">Personas inscriptas:</p>
+                <ul id="listaInscriptos">
+                </ul>
+                <button><a href="inscripcion-css.html">confirmar</a></button>
+            </div>
+        </div>
+
         <section class="bloque-inscripcion">
             <h2>Introduccion a CSS</h2>
             <h3>inscripción</h3>
+            
             <article>
-                <form action="#" id="campos">
+                <form action="" id="campos">
+                    <div id="filas">
 
-                    <div class="fila-campo">
-                        <input class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
+                        <div class="fila-campo">
+                            <input id="f1campo1" name="nombre" class="campo" type="text"
+                                placeholder="ingrese su nombre y apellido">
+                            <input id="f1campo2" name="email" class="campo" placeholder="ingrese su e-mail">
+                            <input id="f1campo3" name="numero" class="campo" type="number" placeholder="ingrese su telefono">
+                            <input id="f1campo4" name="dni" class="campo" type="number" placeholder="ingrese su dni">
+                            <a id="borrarFila1" class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px"
+                                    height="20px" alt=""></a>
+                        </div>
+
+
+                        <!-- <div class="fila-campo">
+                            <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                            <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                            <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                            <a class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
+                                    alt=""></a>
+                        </div>
+                        <div class="fila-campo">
+                            <input class="campo" type="text" placeholder="ingrese su nombre" required>
+                            <input class="campo" type="text" placeholder="ingrese su apellido" required>
+                            <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
+                            <a class="boton-borrar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
+                                    alt=""></a>
+                        </div> -->
+
                     </div>
 
-                    <div class="fila-campo">
-                        <input class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
-                    </div>
-                    <div class="fila-campo">
-                        <input class="campo" type="text" placeholder="ingrese su nombre" required>
-                        <input class="campo" type="text" placeholder="ingrese su apellido" required>
-                        <input class="campo" type="number" placeholder="ingrese su dni" pattern="[0-9]{8}" required>
-                        <a class="boton-confirmar" href=""><img src="img/signo-menos.png" width="20px" height="20px"
-                                alt=""></a>
-                    </div>
 
                     <div class="fila-agregar">
                         <a href="" id="boton-agregar-persona"><img src="img/signo-mas.png" width="20px" height="20px"
                                 alt=""></a>
                         <p>agregar persona</p>
                     </div>
+                    <script src="js/inscripcion-agregar-fila.js"></script>
+                    <script src="js/inscripcion-limpiar-primera-fila.js"></script>
+                    <script src="js/inscripcion-eliminar-fila.js"></script>
+
 
                     <div class="fila-agregar">
-                        <p id="precio">0.00$</p> <button id="boton-inscribirse">Inscribirse</button>
+                        <p id="precio">100$</p> <button id="boton-inscribirse">Inscribirse</button>
                     </div>
                 </form>
+                <script src="js/inscripcion-validar-form.js"></script>
             </article>
 
 
