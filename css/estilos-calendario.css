@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
 
 body {
-    background: rgb(114, 229, 174);
-    background: linear-gradient(164deg, rgba(114, 229, 174, 1) 13%, rgba(247, 179, 225, 1) 57%, rgba(141, 178, 249, 1) 97%);
+    background-color: #d7d9f7;
 }
 
 .contenedor-calendario {
@@ -50,7 +49,10 @@ span.fc-title{
     color: aliceblue;
 }
 
-
+.fc-view, .fc-view>table {
+    background: rgb(114, 229, 174);
+    background: linear-gradient(164deg, rgba(114, 229, 174, 1) 13%, rgba(247, 179, 225, 1) 57%, rgba(141, 178, 249, 1) 97%);
+}
 @keyframes text-color {
     0% {
         color: #1D438A;
