@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
 
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link href='fullcalendar/core/main.css' rel='stylesheet' />
+    <link href='fullcalendar/daygrid/main.css' rel='stylesheet' />
+    <script src='fullcalendar/core/main.js'></script>
+    <script src='fullcalendar/daygrid/main.js'></script>
+    <script src="js/calendario.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos-calendario.css">
+
     <title>Calendario</title>
     <link rel="icon" href="./img/carpiMedia/isologotipoCarpi.png" type="image/x.icon" sizes="64x64" />
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="stylesheet" href="./css/estilos-calendario.css">
     <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/modal.css">
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.css" />
 
 </head>
@@ -92,7 +96,9 @@
             </div>
         </div>
 
-        <article id="calendario"></article>
+        <section class="contenedor-calendario">
+            <article id="calendario"></article>
+        </section>
 
 
 
@@ -187,28 +193,10 @@
         </div>
 
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var calendarEl = document.getElementById('calendario');
 
-
-
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                // Configuración y opciones de FullCalendar
-                // Puedes personalizar el calendario según tus necesidades
-                // Consulta la documentación de FullCalendar para más detalles
-            });
-
-
-
-            calendar.render();
-        });
-    </script>
     <script src="js/modal.js"></script>
     <script src="js/cargarChango.js"></script>
-    <script src="js/calendario.js"></script>
+
 </body>
 
 </html>

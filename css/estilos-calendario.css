@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+body {
+    background: rgb(114, 229, 174);
+    background: linear-gradient(164deg, rgba(114, 229, 174, 1) 13%, rgba(247, 179, 225, 1) 57%, rgba(141, 178, 249, 1) 97%);
+}
+
+.contenedor-calendario {
+    width: 90%;
+    margin: 1em auto;
+}
+
+.fc .fc-toolbar>*>:first-child {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    animation: text-color 0.9s infinite;
+    animation-direction: alternate;
+}
+
+.fc-button-primary:disabled {
+    background-color: #9ef5b0;
+    border-color: #93fa9361;
+}
+
+.fc-button-primary {
+    color: rgb(255, 255, 255);
+    background-color:#9ef5b0;
+    border-color: #6de96db0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+    float: right;
+    color: aliceblue;
+}
+
+.fc-view-container *, .fc-view-container :after, .fc-view-container :before {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    color: #1D438A;
+    box-sizing: content-box;
+}
+
+div.fc-content{
+    background-color: rgb(253, 95, 179);
+    border:none;
+    
+}
+span.fc-title{
+    color: aliceblue;
+}
+
+
+@keyframes text-color {
+    0% {
+        color: #1D438A;
+        opacity: 1;
+    }
+
+    25% {
+        color: #2452a7;
+        opacity: 1;
+    }
+
+    50% {
+        color: #2b63cd;
+        opacity: 1;
+    }
+
+    100% {
+        color: #3275f1;
+        opacity: 1;
+    }
+}

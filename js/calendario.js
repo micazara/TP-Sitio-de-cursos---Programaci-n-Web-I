@@ -1,21 +1,22 @@
-document.addEventListener('DOMContentLoaded',function(){
-    var calendarEl= document.getElementById('calendario');
+document.addEventListener("DOMContentLoaded", function () {
+  var calendarEl = document.getElementById("calendario");
 
-    var calendar= new FullCaledar.Calendar(calendarEl,{
-        plugins:['dayGrid'],
-        locale: 'es',
-        events: [
-            {
-                title: 'Jvascript',
-                start:'2023-06-15',
-                end:'2023-0-25'
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    plugins: ["dayGrid"],
+    locale: "es",
+    events: [
+      {
+        title: "CARPI-DESCUENTOS",
+        start: "2023-06-07",
+        end: "2023-06-10",
+      },
+      {
+        title: "Curso HTML",
+        start: "2023-06-03",
+        end: "2023-06-10",
+      },
+    ],
+  });
 
-            },
-            {
-                title: 'html',
-                start:'2023-06-02'
-            }
-        ]
-    });
-    calendar.render();
+  calendar.render();
 });
