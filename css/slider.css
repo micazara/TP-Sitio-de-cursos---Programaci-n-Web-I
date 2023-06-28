@@ -10,14 +10,13 @@
 }
 
 .slide1{
-    background-image: url('https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/07/Spy-x-Family-se-vuelve-el-anime-mas-popular-en-China.jpg');
+    background-image: url('../img/carpiIndex/carrusel-uno.png');
 }
 .slide2{
-   background-image: url('https://pbs.twimg.com/media/FoyWClHXEAIVJJU.jpg');
+   background-image: url('../img/carpiIndex/carrusel-uno.png');
 }
 .slide3{
-   background-image: url('https://rare-gallery.com/uploads/posts/4581268-open-mouth-anime-anime-girls-gun-touhou-cirno.jpg');
-background-size: cover;
+   background-image: url('../img/carpiIndex/carrusel-uno.png');
 }
 
 .slideshow{
