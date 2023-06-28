@@ -301,4 +301,17 @@ footer div h3 {
         display: none;
     }
 
+    footer{
+        display: block;
+        text-align: center;
+        margin: 0;
+       }
+       footer li{
+        text-align: center;
+       }
+       footer div h3 {
+        margin-top: 0;
+        margin-bottom: 2%;
+       }
+     
 }
