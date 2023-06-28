@@ -11,12 +11,22 @@
 
 .slide1{
     background-image: url('../img/carpiIndex/carrusel/01-carrusel.png');
+    background-size: 70% 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
 }
 .slide2{
    background-image: url('../img/carpiIndex/carrusel/02-carrusel.png');
+   background-size: 70% 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
+ 
 }
 .slide3{
    background-image: url('../img/carpiIndex/carrusel/03-carrusel.png');
+   background-size: 70% 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
 }
 
 .slideshow{
