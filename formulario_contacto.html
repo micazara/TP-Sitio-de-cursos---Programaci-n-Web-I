@@ -92,23 +92,23 @@
 
                 <section>
 
-                    <form action="#" method="post" class="campos" name="formulario-consulta">
+                    <form action="#" method="post" class="campos" name="formulario-consulta" id = "formulario-contacto">
 
                         <div class="para_alinear">
                             <!--nombre y apellido (obligatorio)-->
                             <label for="nombre_y_apellido">Ingrese su nombre y apellido</label>
-                            <input id="nombre_y_apellido" type="text"  name="nombreyapellido" class="input">
+                            <input id="nombre_y_apellido" type="text" name="nombreyapellido" class="input">
                         </div>
 
                         <div class="para_alinear">
                             <!--mail (obligatorio)-->
                             <label for="mail">Ingrese su e-mail</label>
-                            <input type="email"name="mail" id="mail" class="input">
+                            <input type="email" name="mail" id="mail" class="input">
                         </div>
 
                         <div class="para_alinear">
                             <!--tel (opcional)-->
-            
+
                             <label for="telefono">Ingrese su número telefónico</label>
                             <input type="tel" name="telefono" id="telefono" class="input">
                         </div>
@@ -123,7 +123,17 @@
 
                         <input id="boton-enviar-form" type="submit" value="Enviar">
                     </form>
+
+                    <div class="modal-formulario-exitoso" id="modal-formulario-exitoso">
+                        <div class="contenido-modal-formulario">
+                            <span class="cerrar-modal-formulario" onClick="cerrarModal()"> X </span>
+                            <p id ="titulo-modal-contacto">Consulta enviada</p>
+                            <input id="boton-modal-contacto" type="submit" value="Aceptar">
+                        </div>
+                    </div>
                     
+                    <script src="js/modal-formulario-contacto.js"></script>
+
                     <div id="mensaje" class="error"></div>
                 </section>
 

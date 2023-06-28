@@ -9,7 +9,7 @@ Cambios en la página de formulario de contacto
 ● Esta y todas las otras páginas deben de ser responsive.
 */
 
-let form = document.querySelector("formulario-consulta");
+let form = document.querySelector("#formulario-consulta");
 let botonEnviar = document.querySelector("#boton-enviar-form");
 let mensaje = document.querySelector("#mensaje")
 
@@ -67,8 +67,8 @@ function validar() {
 
     if (cantidadDeCaracteres > 1000 || cantidadDeCaracteres == 0) {
         error = true;
-        mensajesError += " <p>La consulta no puede tener más de 1000 caracteres</p> "
-    }
+        mensajesError += " <p>La consulta no está completa</p> "
+    } 
 
     // T E L E F O N O
     // testea que el regex se cumpla en tel
@@ -77,12 +77,25 @@ function validar() {
         mensajesError += " <p>Ingresá un formato de telefono válido</p> "
     }
 
-
     if (error) {
         //muestre los errores
         mensaje.innerHTML = mensajesError;
     } else {
         form.submit();
-        alert("Consulta enviada")
+        mostrarModal("Consulta enviada");
     }
+
+
+    function mostrarModal(message) {
+        let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
+        let tituloModalContacto = document.getElementById("titulo-modal-contacto");
+        tituloModalContacto.textContent = message;
+        modalFormularioExitoso.style.display = "block";
+      }
+      
+      function cerrarModal() {
+        let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
+        modalFormularioExitoso.style.display = "none";
+      }
+   
 }
