@@ -133,7 +133,7 @@ footer div {
 /*MEDIA QUERIES */
 
 /*TABLET*/
-@media screen and (min-width: 48em) and (max-width:64em){
+@media screen and (max-width:64em){
     .paraAcomodarlos {
         display: flex;
         flex-wrap: wrap;
@@ -145,32 +145,4 @@ footer div {
 }
 
 /*CELULAR*/
-@media screen and (max-width:48em){
-    body {
-        width: fit-content;
 
-    }
-
-    .paraAcomodarlos {
-        flex-wrap: wrap;
-    }
-
-    .tarjetitas{
-        flex-direction: column;
-    }
-    
-    .tarjetita {
-        margin: 2%;
-        width: 70%;
-    }
-
-    .tarjetita_cursos {
-        margin: 2%;
-    }
-
-    .contenedor-c{
-        
-    }
-
-
-}
