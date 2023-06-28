@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/input.css">
     <link rel="stylesheet" href="./css/inputs-formulario-contacto.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/modal-contacto.css">
     <title>Formulario de contacto</title>
     <script src="js/cargarChango.js"></script>
 </head>
@@ -92,7 +93,7 @@
 
                 <section>
 
-                    <form action="#" method="post" class="campos" name="formulario-consulta" id = "formulario-contacto">
+                    <form action="#" method="post" class="campos" name="formulario-consulta" id="formulario-contacto">
 
                         <div class="para_alinear">
                             <!--nombre y apellido (obligatorio)-->
@@ -126,12 +127,13 @@
 
                     <div class="modal-formulario-exitoso" id="modal-formulario-exitoso">
                         <div class="contenido-modal-formulario">
-                            <span class="cerrar-modal-formulario"> X </span>
-                            <p id ="titulo-modal-contacto">Consulta enviada</p>
-                            <input id="boton-modal-contacto" type="submit" value="Aceptar">
+                            
+                            <img src="./img/carpiMedia/caraCarpi.png" alt="caraCarp" id="caraCarpi">
+                            <p id="titulo-modal-contacto">Consulta enviada</p>
+                            <button id="boton-modal-contacto"><a href="index.html">Aceptar</a></button>
                         </div>
                     </div>
-                    
+
                     <script src="js/modal-formulario-contacto.js"></script>
 
                     <div id="mensaje" class="error"></div>

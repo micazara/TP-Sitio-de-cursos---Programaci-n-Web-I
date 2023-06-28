@@ -1,5 +1,5 @@
-.e-cursos-carrito, .modal-formulario-exitoso{
-  display: block;
+.e-cursos-carrito{
+  display: none;
   /* Ocultar la modal por defecto */
   position: fixed;
   /* Posición fija para que se mantenga en la pantalla */
@@ -15,7 +15,7 @@
   /* Permitir el desplazamiento si el contenido es demasiado grande */
 }
 
-.contenido-modal, .contenido-modal-formulario {
+.contenido-modal {
   background-color: #fff;
   margin: 20% auto;
   padding: 20px;
@@ -33,19 +33,19 @@
   margin: 0%;
 }
 
-.cerrar, .cerrar-modal-formulario {
+.cerrar {
   color: #aaa;
   float: right;
   font-size: 20px;
   font-weight: bold;
 }
 
-.cerrar:hover, .cerrar-modal-formulario:hover{
+.cerrar:hover{
   color: rgb(59, 55, 55);
   text-decoration: none;
   cursor: url(../img/cursor-a.png);
 }
 
-.contenido-modal p, .contenido-modal-formulario p{
+.contenido-modal p{
   font-size: x-large;
 }

@@ -15,6 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
         start: "2023-06-03",
         end: "2023-06-10",
       },
+      {
+        title: "Curso Javascript",
+        start: "2023-06-022",
+        end: "2023-07-05",
+      },
     ],
   });
 

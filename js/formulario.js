@@ -79,10 +79,10 @@ botonEnviar.addEventListener("click", function (event) {
         mensaje.innerHTML = mensajesError;
     } else {
         // form.submit();
-        
+       
         let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
         let tituloModalContacto = document.getElementById("titulo-modal-contacto");
-        tituloModalContacto.textContent = message;
+        tituloModalContacto.textContent = "Los carpis te saludan...estamos viendo tu consulta";
         modalFormularioExitoso.style.display = "block";
 
         let cerrarModal = document.querySelector(".cerrar-modal-formulario");

@@ -1,0 +1,60 @@
+.modal-formulario-exitoso {
+    display: none;
+    /* Ocultar la modal por defecto */
+    position: fixed;
+    /* Posición fija para que se mantenga en la pantalla */
+    z-index: 10000000;
+    /* Z-index para colocarlo por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Permitir el desplazamiento si el contenido es demasiado grande */
+}
+
+#caraCarpi{
+width: 20%;
+}
+.contenido-modal-formulario {
+    background-color: rgba(248, 239, 239, 0.5);
+    background-image: url(../img/carpiMedia/carpiCocodrilo.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative; 
+}
+
+.cerrar-modal-formulario {
+    color: #aaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cerrar-modal-formulario:hover {
+    color: rgb(59, 55, 55);
+    text-decoration: none;
+    cursor: url(../img/cursor-a.png);
+}
+
+#boton-modal-contacto a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#boton-modal-contacto a :hover{
+    color: rgb(88, 147, 198);
+    text-decoration: none;
+    background-color: #7bd2a8;
+}
+
+.contenido-modal-formulario p {
+    font-size: x-large;
+}
