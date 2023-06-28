@@ -145,7 +145,7 @@ footer div {
 }
 
 /*CELULAR*/
-@media screen and (min-width: 8em) and (max-width:48em){
+@media screen and (max-width:48em){
     body {
         width: fit-content;
 
@@ -166,6 +166,10 @@ footer div {
 
     .tarjetita_cursos {
         margin: 2%;
+    }
+
+    .contenedor-c{
+        
     }
 
 
