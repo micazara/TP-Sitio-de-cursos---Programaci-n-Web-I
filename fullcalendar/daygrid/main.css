@@ -62,8 +62,8 @@
 .fc-dayGrid-view .fc-day-top .fc-week-number {
   min-width: 1.5em;
   text-align: center;
-  background-color: #f2f2f2;
-  color: #808080;
+  background-color: #470bae;
+  color: #9544ed;
 }
 
 /* when week/day number have own column */

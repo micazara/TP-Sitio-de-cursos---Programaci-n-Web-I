@@ -17,20 +17,20 @@ body .fc {
 --------------------------------------------------------------------------------------------------*/
 .fc-highlight {
   /* when user is selecting cells */
-  background: #bce8f1;
+  background: #11ad62;
   opacity: 0.3;
 }
 
 .fc-bgevent {
   /* default look for background events */
-  background: #8fdf82;
+  background: #3ddc8f; 
   opacity: 0.3;
 }
 
 .fc-nonbusiness {
   /* default look for non-business-hours areas */
   /* will inherit .fc-bgevent's styles */
-  background: #d7d7d7;
+  background: #f567d1b7;
 }
 
 /* Popover
@@ -260,12 +260,13 @@ temporary rendered events).
   font-size: 0.85em;
   line-height: 1.4;
   border-radius: 3px;
-  border: 1px solid #3788d8;
+  border: 1px solid #c711ac; 
 }
+
 
 .fc-event,
 .fc-event-dot {
-  background-color: #3788d8;
+  background-color: #fc88ee;
   /* default BACKGROUND color */
 }
 
@@ -345,14 +346,14 @@ temporary rendered events).
   bottom: -1px;
   left: -1px;
   /* darkening effect */
-  background: #000;
+  background: #210248;
   opacity: 0.25;
 }
 
 /* Event Dragging
 --------------------------------------------------------------------------------------------------*/
 .fc-event.fc-dragging.fc-selected {
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 7px rgba(52, 7, 159, 0.3);
 }
 
 .fc-event.fc-dragging:not(.fc-selected) {
@@ -429,7 +430,7 @@ temporary rendered events).
   height: 6px;
   border-style: solid;
   border-color: inherit;
-  background: #fff;
+  background: #f296ec;
   /* vertically center */
   top: 50%;
   margin-top: -4px;
@@ -533,7 +534,7 @@ a.fc-more:hover {
 --------------------------------------------------------------------------------------------------*/
 .fc-now-indicator {
   position: absolute;
-  border: 0 solid red;
+  border: 0 solid rgb(79, 2, 105);
 }
 
 /* Utilities
@@ -545,7 +546,7 @@ a.fc-more:hover {
   -ms-user-select: none;
   user-select: none;
   -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(58, 1, 63, 0);
 }
 
 /*
@@ -563,7 +564,7 @@ TODO: more distinction between this file and common.css
 .fc-unthemed .fc-popover,
 .fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
-  border-color: #ddd;
+  border-color: #cc2cac;
 }
 
 .fc-unthemed .fc-popover {
@@ -681,7 +682,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 .fc-button {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #4431d2;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -697,14 +698,14 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 }
 
 .fc-button:hover {
-  color: #212529;
+  color: #916bf9;
   text-decoration: none;
 }
 
 .fc-button:focus {
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(44, 62, 80, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(68, 2, 96, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(128, 18, 180, 0.25);
 }
 
 .fc-button:disabled {
@@ -714,38 +715,38 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 /* "primary" coloring */
 .fc-button-primary {
   color: #fff;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #b741ed;
+  border-color: #b9238e;
 }
 
 .fc-button-primary:hover {
   color: #fff;
-  background-color: #1e2b37;
-  border-color: #1a252f;
+  background-color: #d077fc;
+  border-color: #30074a;
 }
 
 .fc-button-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(245, 95, 232, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(170, 35, 211, 0.5);
 }
 
 .fc-button-primary:disabled {
   color: #fff;
-  background-color: #2C3E50;
-  border-color: #2C3E50;
+  background-color: #c922e3;
+  border-color: #7a0bba;
 }
 
 .fc-button-primary:not(:disabled):active,
 .fc-button-primary:not(:disabled).fc-button-active {
   color: #fff;
-  background-color: #1a252f;
-  border-color: #151e27;
+  background-color: #ad22d3;
+  border-color: #740982;
 }
 
 .fc-button-primary:not(:disabled):active:focus,
 .fc-button-primary:not(:disabled).fc-button-active:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(76, 91, 106, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(140, 22, 134, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(125, 10, 138, 0.5);
 }
 
 /* icons within buttons */
@@ -865,8 +866,8 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   /* Global Event Restyling
   --------------------------------------------------------------------------------------------------*/
   .fc-event {
-    background: #fff !important;
-    color: #000 !important;
+    background: #c412c4 !important;
+    color: #db21d2 !important;
     page-break-inside: avoid;
   }
 
@@ -882,8 +883,8 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
 .fc thead,
 .fc tbody,
 .fc-row {
-    border-color: #ccc !important;
-    background: #fff !important;
+    border-color: #fc8fea !important;
+    background: #c94eb9 !important;
   }
 
   /* kill the overlaid, absolutely-positioned components */
