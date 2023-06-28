@@ -84,11 +84,12 @@ footer div {
 }
 
 
-.brillitos{
+.brillitos {
     background-image: url(../img/carpiIndex/backCarrusel.gif);
-    background-size: 20% ;
+    background-size: 20%;
     background-clip: content-box;
 }
+
 #flechas {
     display: flex;
     justify-content: space-between;
@@ -133,7 +134,7 @@ footer div {
 /*MEDIA QUERIES */
 
 /*TABLET*/
-@media screen and (max-width:64em){
+@media screen and (max-width:64em) {
     .paraAcomodarlos {
         display: flex;
         flex-wrap: wrap;
@@ -145,4 +146,20 @@ footer div {
 }
 
 /*CELULAR*/
+@media screen and (max-width:48em) {
 
+    .tarjetitas {
+        display: block;
+    }
+
+    .tarjetita {
+
+        width: 100%;
+    }
+
+    .fotitosmp {
+        width: 20%;
+        height: 20%;
+    }
+
+}

@@ -270,14 +270,14 @@ footer div h3 {
 /*MEDIA QUERIES */
 
 /*TABLET*/
-@media screen and (min-width: 48em) and (max-width:64em){
+@media screen and (max-width:64em){
     p {
         font-size: 0.9em;
     }
 }
 
 /*CELULAR*/
-@media screen and (min-width: 8em) and (max-width:48em) {
+@media screen and (max-width:48em) {
 
     .cajaDos {
         flex-direction: column;
