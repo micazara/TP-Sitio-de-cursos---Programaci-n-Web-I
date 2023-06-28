@@ -9,17 +9,14 @@ Cambios en la página de formulario de contacto
 ● Esta y todas las otras páginas deben de ser responsive.
 */
 
-let form = document.querySelector("#formulario-consulta");
 let botonEnviar = document.querySelector("#boton-enviar-form");
 let mensaje = document.querySelector("#mensaje")
 
 botonEnviar.addEventListener("click", function (event) {
     event.preventDefault()
-    validar()
-})
 
 
-function validar() {
+    let form = document.querySelector("#formulario-consulta");
     let error = false;
     let mensajesError = "";
 
@@ -81,21 +78,32 @@ function validar() {
         //muestre los errores
         mensaje.innerHTML = mensajesError;
     } else {
-        form.submit();
-        mostrarModal("Consulta enviada");
-    }
-
-
-    function mostrarModal(message) {
+        // form.submit();
+        
         let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
         let tituloModalContacto = document.getElementById("titulo-modal-contacto");
         tituloModalContacto.textContent = message;
         modalFormularioExitoso.style.display = "block";
-      }
+
+        let cerrarModal = document.querySelector(".cerrar-modal-formulario");
+
+        cerrarModal.addEventListener("click", (e)=>{
+            modalFormularioExitoso.style.display = "none";
+
+        })
+
+
+        
+    }
+
+
+    
       
-      function cerrarModal() {
-        let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
-        modalFormularioExitoso.style.display = "none";
-      }
+      
+      
+      
    
-}
+
+})
+
+

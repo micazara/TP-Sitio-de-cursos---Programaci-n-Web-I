@@ -1,5 +1,5 @@
 .e-cursos-carrito, .modal-formulario-exitoso{
-  display: none;
+  display: block;
   /* Ocultar la modal por defecto */
   position: fixed;
   /* Posición fija para que se mantenga en la pantalla */
