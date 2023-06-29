@@ -219,24 +219,24 @@ footer div h3 {
     justify-content: space-around;
 }
 
-@keyframes footer-color {
+@keyframes barra-color {
     0% {
-        background-color: #1D438A;
+        background-color: #afb1d5;
         opacity: 1;
     }
 
     25% {
-        background-color: #2452a7;
+        background-color: #9a9dd4;
         opacity: 1;
     }
 
     50% {
-        background-color: #2b63cd;
+        background-color: #797ed6;
         opacity: 1;
     }
 
     100% {
-        background-color: #3275f1;
+        background-color: #565cd2;
         opacity: 1;
     }
 }
@@ -270,14 +270,14 @@ footer div h3 {
 /*MEDIA QUERIES */
 
 /*TABLET*/
-@media screen and (min-width: 48em) and (max-width:64em){
+@media screen and (max-width:64em){
     p {
         font-size: 0.9em;
     }
 }
 
 /*CELULAR*/
-@media screen and (min-width: 8em) and (max-width:48em) {
+@media screen and (max-width:48em) {
 
     .cajaDos {
         flex-direction: column;
@@ -301,4 +301,17 @@ footer div h3 {
         display: none;
     }
 
+    footer{
+        display: block;
+        text-align: center;
+        margin: 0;
+       }
+       footer li{
+        text-align: center;
+       }
+       footer div h3 {
+        margin-top: 0;
+        margin-bottom: 2%;
+       }
+     
 }
