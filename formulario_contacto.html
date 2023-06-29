@@ -117,17 +117,10 @@
                         <div class="para_alinear">
                             <!--consulta (obligatorio)-->
                             <p class="campos">Ingrese su consulta</p>
-                            <textarea name="consulta" id="consulta" cols="30" rows="10" class="input"
-                                maxlength="1000"></textarea>
-
-                            <p id="cantidadDeCaracteres"></p>
-
-                            <!--
-                            <p id="caracteresIngresados"></p>
-                            <p id="caracteresRestantes"></p>
--->
-
+                            <textarea name="consulta" id="consulta" cols="30" rows="10" class="input" maxlength="1000"></textarea>
                         </div>
+
+                        <p id="conteo_caracteres"> Caracteres ingresados: 0 - Caracteres restantes: 1000 </p>
 
                         <input id="boton-enviar-form" type="submit" value="Enviar">
                     </form>
@@ -140,8 +133,6 @@
                             <button id="boton-modal-contacto"><a href="index.html">Aceptar</a></button>
                         </div>
                     </div>
-
-                    <script src="js/modal-formulario-contacto.js"></script>
 
                     <div id="mensaje" class="error"></div>
                 </section>

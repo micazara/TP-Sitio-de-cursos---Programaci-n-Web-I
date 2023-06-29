@@ -33,15 +33,11 @@ botonEnviar.addEventListener("click", function (event) {
     let regexNumeros = /^\d{4}-?\d{4}$/;
 
     // ○ Consulta, se debe limitar a 1000 caracteres y mostrar la cantidad de caracteres ingresados y resantes en tiempo real.
-    let consulta = document.querySelector("#consulta");
-    let cantidadDeCaracteres = document.querySelector("#cantidadDeCaracteres")
-
-    /*let caracteresIngresados = document.querySelector("#caracteresIngresados")
-    let caracteresRestantes = document.querySelector("#caracteresRestantes")
-
+ 
     // V A L I D A C I O N
 
-    // N O M B R E  Y  A P E L L I D O
+    // N O M B R E  Y  A P E L L I D O*/
+
     if (nombreApellido == "") {
         error = true;
         mensajesError += "<p>Ingresá tu nombre y apellido</p>"
@@ -52,37 +48,6 @@ botonEnviar.addEventListener("click", function (event) {
         error = true;
         mensajesError += " <p>Ingresá un email válido</p> "
     }
-
-    /* C O N S U L T A  */
-
-    consulta.addEventListener("keyup", function (event) {
-
-        let inputLength = consulta.value.length;
-        let restantes = 1000 - inputLength;
-
-        cantidadDeCaracteres.innerHTML = `Caracteres ingresados: ${inputLength} / Caracteres restantes: ${restantes}`;
-
-        /*
-                let texto = consulta.value;
-                let cantidadDeCaracteres = texto.length;
-                String(cantidadDeCaracteres);
-                // Mostrar la cantidad de caracteres ingresados
-                caracteresIngresados.textContent = cantidadDeCaracteres;
-            
-                // // Calcular los caracteres restantes y mostrarlos
-                let caracMax = 1000; // Cantidad máxima de caracteres permitidos
-                let restantes = caracMax - cantidadDeCaracteres;
-                caracteresRestantes.textContent = restantes;
-        
-                caracteresIngresados.innerHTML = `ggggg ${consu}`
-            */
-        if (cantidadDeCaracteres > 1000 || cantidadDeCaracteres == 0) {
-            error = true;
-            mensajesError += " <p>La consulta no está completa</p> "
-        }
-    })
-    // Obtener el texto ingresado y la longitud lactual
-
 
     // T E L E F O N O
     // testea que el regex se cumpla en tel
