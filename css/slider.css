@@ -46,3 +46,41 @@
 .slick-dots {
     bottom: 16px;
 }
+
+
+
+/*TABLET*/
+
+@media screen and (max-width:64em){
+    .contenedor-c{
+        max-width: 994px;
+    }
+    
+}
+
+/*CELULAR*/
+
+@media screen and (max-width:48em) {
+    .contenedor-c{
+        max-width: 720px;
+        height: 670px;
+    }
+    .slide{
+        height: 670px;
+    }
+    .slide1 {
+        background-size: 100% 100%;
+        
+    }
+    .slide2 {
+        background-size: 100% 100%;
+        
+    }
+    .slide3 {
+        background-size: 100% 100%;
+        
+    }
+    .slick-dots li button::before {
+        font-size: 23px;
+    }
+}  
