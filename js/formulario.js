@@ -34,8 +34,12 @@ botonEnviar.addEventListener("click", function (event) {
 
     // ○ Consulta, se debe limitar a 1000 caracteres y mostrar la cantidad de caracteres ingresados y resantes en tiempo real.
     let consulta = document.querySelector("#consulta");
-    let caracteresIngresados = document.querySelector("#caracteresIngresados")
+    let cantidadDeCaracteres = document.querySelector("#cantidadDeCaracteres")
+
+    /*let caracteresIngresados = document.querySelector("#caracteresIngresados")
     let caracteresRestantes = document.querySelector("#caracteresRestantes")
+
+    // V A L I D A C I O N
 
     // N O M B R E  Y  A P E L L I D O
     if (nombreApellido == "") {
@@ -49,23 +53,36 @@ botonEnviar.addEventListener("click", function (event) {
         mensajesError += " <p>Ingresá un email válido</p> "
     }
 
-    // C O N S U L T A 
+    /* C O N S U L T A  */
+
+    consulta.addEventListener("keyup", function (event) {
+
+        let inputLength = consulta.value.length;
+        let restantes = 1000 - inputLength;
+
+        cantidadDeCaracteres.innerHTML = `Caracteres ingresados: ${inputLength} / Caracteres restantes: ${restantes}`;
+
+        /*
+                let texto = consulta.value;
+                let cantidadDeCaracteres = texto.length;
+                String(cantidadDeCaracteres);
+                // Mostrar la cantidad de caracteres ingresados
+                caracteresIngresados.textContent = cantidadDeCaracteres;
+            
+                // // Calcular los caracteres restantes y mostrarlos
+                let caracMax = 1000; // Cantidad máxima de caracteres permitidos
+                let restantes = caracMax - cantidadDeCaracteres;
+                caracteresRestantes.textContent = restantes;
+        
+                caracteresIngresados.innerHTML = `ggggg ${consu}`
+            */
+        if (cantidadDeCaracteres > 1000 || cantidadDeCaracteres == 0) {
+            error = true;
+            mensajesError += " <p>La consulta no está completa</p> "
+        }
+    })
     // Obtener el texto ingresado y la longitud lactual
-    let texto = consulta.value;
-    let cantidadDeCaracteres = texto.length;
-    String(cantidadDeCaracteres);
-    // Mostrar la cantidad de caracteres ingresados
-    caracteresIngresados.textContent = cantidadDeCaracteres;
 
-    // // Calcular los caracteres restantes y mostrarlos
-    let caracMax = 1000; // Cantidad máxima de caracteres permitidos
-    let restantes = caracMax - cantidadDeCaracteres;
-    caracteresRestantes.textContent = restantes;
-
-    if (cantidadDeCaracteres > 1000 || cantidadDeCaracteres == 0) {
-        error = true;
-        mensajesError += " <p>La consulta no está completa</p> "
-    } 
 
     // T E L E F O N O
     // testea que el regex se cumpla en tel
@@ -79,7 +96,7 @@ botonEnviar.addEventListener("click", function (event) {
         mensaje.innerHTML = mensajesError;
     } else {
         // form.submit();
-       
+
         let modalFormularioExitoso = document.getElementById("modal-formulario-exitoso");
         let tituloModalContacto = document.getElementById("titulo-modal-contacto");
         tituloModalContacto.textContent = "Los carpis te saludan...estamos viendo tu consulta";
@@ -87,22 +104,22 @@ botonEnviar.addEventListener("click", function (event) {
 
         let cerrarModal = document.querySelector(".cerrar-modal-formulario");
 
-        cerrarModal.addEventListener("click", (e)=>{
+        cerrarModal.addEventListener("click", (e) => {
             modalFormularioExitoso.style.display = "none";
 
         })
 
 
-        
+
     }
 
 
-    
-      
-      
-      
-      
-   
+
+
+
+
+
+
 
 })
 
