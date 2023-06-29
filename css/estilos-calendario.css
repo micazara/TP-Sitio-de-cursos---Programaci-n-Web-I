@@ -175,8 +175,5 @@ div.fc-view-container>div>table>tbody>tr>td>div>div>div:nth-child(2)>div.fc-cont
 /*CELULAR*/
 @media screen and (max-width:48em) {
 
-  footer{
-   display: block;
-  }
-
+  
 }
