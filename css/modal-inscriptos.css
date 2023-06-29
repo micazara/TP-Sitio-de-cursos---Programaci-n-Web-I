@@ -13,6 +13,7 @@
 
 .contenido-modal-inscripcion {
     background-color: #fff;
+    background-image: url(../img/carpiIndex/backCarrusel.gif);
     margin: 20% auto;
     padding: 20px;
     width: 80%;
@@ -20,6 +21,10 @@
     text-align: center;
     border-radius: 5px;
     position: relative;
+}
+
+.contenido-modal-inscripcion img{
+    width: 30%;
 }
 
 .contenido-modal-inscripcion ul{
